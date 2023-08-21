@@ -1,0 +1,74 @@
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: auto;
+}
+
+h1{
+    color: #D8D9DA;
+    font-size: large;
+}
+
+h1#logo{
+    color:  white;
+    font-size: larger;
+}
+
+h2{
+    color: #D8D9DA;
+    font-size: medium;
+}
+
+input {
+    height: 20px;
+    margin: auto;
+  }
+
+.topContent{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.bottomContent{
+    background-color: #343637;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.leftContent{
+    width: 350px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-left: 25px;
+    text-align: right;
+}
+
+.rightContent{
+    width: 420px;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    text-align: right;
+    padding-right: 25px;
+}
+
+button{
+    border-radius: 5px;
+    height: 30px;
+    margin: auto;
+    width: 120px;
+    background-color: #343637;
+    color: white;
+    border-color: gray;
+}
+
+
