@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className={styles.leftContent}>
                 <h1 id={styles.logo}>Pêce</h1>
                     <input></input>
-                <   h1>Voltar à Index</h1>
+                    <NavLink to="/"><h2>Voltar para escolha de conteúdo.</h2></NavLink>
                 </div>
                 <div className={styles.rightContent}>
                     <h1>Registrar / Entrar</h1>

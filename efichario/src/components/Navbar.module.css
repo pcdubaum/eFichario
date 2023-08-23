@@ -5,6 +5,7 @@ nav{
     margin-left: 10px;
     margin-right: 10px;
     width: auto;
+    margin-bottom: 25px;
 }
 
 h1{
@@ -36,7 +37,7 @@ input {
 }
 
 .bottomContent{
-    background-color: #343637;
+    background-color: #61677A;
     display: flex;
     justify-content: space-between;
     padding-left: 25px;
@@ -44,7 +45,7 @@ input {
 }
 
 .leftContent{
-    width: 350px;
+    width: 550px;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
@@ -53,7 +54,7 @@ input {
 }
 
 .rightContent{
-    width: 420px;
+    width: 520px;
     display: flex;
     justify-content: right;
     flex-direction: row;

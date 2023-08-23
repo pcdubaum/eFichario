@@ -1,7 +1,17 @@
 .titulo{
-    background-color: #343637;
+    background-color: #61677A;
     border-radius: 5px 5px 0px 0px;
     margin-top: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
+    padding-left: 25px;
+}
+
+.atencao{
+    background-color: #7a7961;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 25px;
 }

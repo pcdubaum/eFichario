@@ -1,0 +1,8 @@
+.conjunto{
+    border: 2px solid #343637;
+    border-radius: 0px 0px 5px 5px;
+    color: #D8D9DA;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
