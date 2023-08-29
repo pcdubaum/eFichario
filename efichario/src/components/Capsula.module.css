@@ -6,3 +6,13 @@
     justify-content: space-around;
     flex-direction: column;
 }
+
+h2{
+    padding-left: 25px;
+    text-indent: 50px;
+}
+
+h2#atencao{
+    color: #7a7961;
+    padding-left: 25px;
+}

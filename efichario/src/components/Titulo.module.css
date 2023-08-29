@@ -8,10 +8,23 @@
 }
 
 .atencao{
-    background-color: #7a7961;
+    background-color: #7d7c54;
     border-radius: 5px 5px 0px 0px;
     margin-top: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 25px;
+}
+
+.cuidado{
+    background-color: #764d4d;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 25px;
+}
+
+h1{
+    text-indent: 50px;
 }

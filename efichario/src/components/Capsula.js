@@ -2,16 +2,20 @@ import React from 'react'
 import Exemplo from './Exemplo'
 import Titulo from './Titulo'
 import styles from "../components/Capsula.module.css"
+import Cuidado from './Cuidado'
 
 const Capsula = (texto) => {
   return (
     <div >
-      {texto.atencao === undefined && <Titulo texto = {texto.titulo} />}
-      {texto.atencao === "sim" && <Titulo  atencao = "sim" texto = {texto.titulo} atencaomsg = {texto.atencaomsg} />}
-          <div className={styles.conjunto}>
-        <Exemplo texto = {texto.exemplo} />
-        {texto.atencao === "sim" && <h2>{texto.atencaomsg}</h2>}
-        </div>
+      {((texto.atencao === undefined) && (texto.cuidado === undefined)) && <Titulo texto={texto.titulo} />}
+      {texto.atencao === "sim" && <Titulo atencao="sim" texto={texto.titulo} atencaomsg={texto.atencaomsg} />}
+      {texto.cuidado === "sim" && <Titulo cuidado="sim" texto={texto.titulo} cuidadomsg={texto.cuidadomsg} />}
+      <div className={styles.conjunto}>
+        {texto.texto !== undefined && <h2>{texto.texto}</h2>}
+        {texto.exemplo !== undefined && <Exemplo texto={texto.exemplo} />}
+        {texto.atencaomsg !== undefined && <h2 id={styles.atencao}>{texto.atencaomsg}</h2>}
+        {texto.cuidadomsg !== undefined&& <Cuidado texto = {texto.cuidadomsg} />}
+      </div>
     </div>
   )
 }

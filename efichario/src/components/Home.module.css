@@ -44,6 +44,8 @@ article{
     min-width: 980px;
     max-width: 1180px;
     margin: auto;
+    width: 90%;
+    margin-bottom: 20px;
 }
 
 .exemplo{
