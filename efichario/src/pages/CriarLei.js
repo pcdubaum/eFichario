@@ -56,7 +56,7 @@ const CriarLei = () => {
         paragrafos.forEach(element2 => {
 
           if(element.numero === element2.numero)
-           _paragrafos.push(element2)
+           _paragrafos.push({Paragrafos: element2.content})
           
         });
 
