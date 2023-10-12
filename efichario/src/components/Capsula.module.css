@@ -1,5 +1,6 @@
-.conjunto{
+.conjunto#paragrafos{
     border: 2px solid #343637;
+    border-radius: 0px 0px 5px 5px;
     border-radius: 0px 0px 5px 5px;
     color: #D8D9DA;
     display: flex;
@@ -8,11 +9,11 @@
 }
 
 h2{
+    color: #a2a8bd;
     padding-left: 25px;
-    text-indent: 50px;
+    text-align: left;
 }
 
 h2#atencao{
     color: #7a7961;
-    padding-left: 25px;
 }

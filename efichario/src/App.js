@@ -1,13 +1,14 @@
 import './App.css';
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 
 // hooks
-import { useState, useEffect } from "react";
 import Home from './components/Home';
 import Crase from './pages/Crase';
 import Acentuacao from './pages/Acentuacao';
-import RegimentoInterno from './pages/RegimentoInterno';
+import LerLei from './pages/LerLei';
+import Cursos from './pages/Cursos';
+import CriarLei from './pages/CriarLei';
 
 function App() {
 
@@ -20,8 +21,10 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/crase' element={<Crase />} />
           <Route path='/acentuacao' element={<Acentuacao />} />
-          <Route path='/regimento_interno' element={<RegimentoInterno />} />
-          <Route path='/postarLei' element={<RegimentoInterno />} />
+          <Route path='/lerlei/:id' element={<LerLei />} />
+          <Route path='/postarLei' element={<LerLei />} />
+          <Route path='/cursos' element={<Cursos />} />
+          <Route path='/CRIARLEI' element={<CriarLei />} />
         </Routes>
       </BrowserRouter>
     </div>

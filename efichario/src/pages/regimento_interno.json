@@ -1,572 +1,276 @@
 {
-    "dados" : [
-    {
-      "tag": "numero",
-      "content": "REGIMENTO INTERNO DA CÂMARA DOS DEPUTADOS"
-    },
-    {
-      "tag": "capitulo",
-      "content": "CAPÍTULO I - DA SEDE "
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 1º A Câmara dos Deputados, com sede na Capital Federal, funciona no Palácio do Congresso Nacional. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "Parágrafo único. Havendo motivo relevante, ou de força maior, a Câmara poderá, por deliberação da Mesa, ad referendum da maioria absoluta dos Deputados, reunir-se em outro edifício ou em ponto diverso no território nacional."
-    },
-    {
-      "tag": "capitulo",
-      "content": "CAPÍTULO II - DAS SESSÕES LEGISLATIVAS"
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 2º A Câmara dos Deputados reunir-se-á durante as sessões legislativas: "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "I - ordinárias, de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro; (Inciso com redação adaptada à Emenda Constitucional nº 50, de 2006, conforme Ato da Mesa nº 80, de 2006)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "II - extraordinárias, quando, com este caráter, for convocado o Congresso Nacional. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 1º As reuniões marcadas para as datas a que se refere o inciso I serão transferidas para o primeiro dia útil subsequente quando recaírem em sábados, domingos ou feriados."
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 2º A primeira e a terceira sessões legislativas ordinárias de cada legislatura serão precedidas de sessões preparatórias. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 3º A sessão legislativa ordinária não será interrompida em 17 de julho, enquanto não for aprovada a lei de diretrizes orçamentárias pelo Congresso Nacional. (Parágrafo com redação adaptada à Emenda Constitucional nº 50, de 2006, conforme Ato da Mesa nº 80, de 2006)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 4º Quando convocado extraordinariamente o Congresso Nacional, a Câmara dos Deputados somente deliberará sobre a matéria objeto da convocação."
-    },
-    {
-      "tag": "capitulo",
-      "content": "CAPÍTULO III - DAS SESSÕES PREPARATÓRIAS "
-    },
-    {
-      "tag": "secao",
-      "content": "Seção I - Da Posse dos Deputados "
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 3º O candidato diplomado Deputado Federal deverá apresentar à Mesa, pessoalmente ou por intermédio do seu Partido, até o dia 31 de janeiro do ano de instalação de cada legislatura, o diploma expedido pela Justiça Eleitoral, juntamente com a comunicação de seu nome parlamentar, legenda partidária e unidade da Federação de que proceda a representação."
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 1º O nome parlamentar compor-se-á, salvo quando, a juízo do Presidente, devam ser evitadas confusões, apenas de dois elementos: um prenome e o nome; dois nomes; ou dois prenomes. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 2º Caberá à Secretaria-Geral da Mesa organizar a relação dos Deputados diplomados, que deverá estar concluída antes da instalação da sessão de posse. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 3º A relação será feita por Estado, Distrito Federal e Territórios, de norte a sul, na ordem geográfica das capitais e, em cada unidade federativa, na sucessão alfabética dos nomes parlamentares, com as respectivas legendas partidárias. "
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 4º No dia 1º de fevereiro do primeiro ano de cada legislatura, os candidatos diplomados Deputados Federais reunir-se-ão em sessão preparatória, na sede da Câmara dos Deputados. (“Caput” do artigo com redação dada pela Resolução nº 19, de 2012)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 1º Assumirá a direção dos trabalhos o último Presidente, se reeleito Deputado, e, na sua falta, o Deputado mais idoso, dentre os de maior número de legislaturas. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 2º Aberta a sessão, o Presidente convidará quatro Deputados, de preferência de Partidos diferentes, para servirem de Secretários e proclamará os nomes dos Deputados diplomados, constantes da relação a que se refere o artigo anterior. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 3º Examinadas e decididas pelo Presidente as reclamações atinentes à relação nominal dos Deputados, será tomado o compromisso solene dos empossados. De pé todos os presentes, o Presidente proferirá a seguinte declaração: \"Prometo manter, defender e cumprir a Constituição, observar as leis, promover o bem geral do povo brasileiro e sustentar a união, a integridade e a independência do Brasil\". Ato contínuo, feita a chamada, cada Deputado, de pé, a ratificará dizendo: \"Assim o prometo\", permanecendo os demais Deputados sentados e em silêncio."
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 4º O conteúdo do compromisso e o ritual de sua prestação não poderão ser modificados; o compromissando não poderá apresentar, no ato, declaração oral ou escrita nem ser empossado através de procurador. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 5º O Deputado empossado posteriormente prestará o compromisso em sessão e junto à Mesa, exceto durante período de recesso do Congresso Nacional, quando o fará perante o Presidente. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 6º Salvo motivo de força maior ou enfermidade devidamente comprovados, a posse dar-se-á no prazo de trinta dias, prorrogável por igual período a requerimento do interessado, contado:"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 6º Salvo motivo de força maior ou enfermidade devidamente comprovados, a posse dar-se-á no prazo de trinta dias, prorrogável por igual período a requerimento do interessado, contado:"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "II - da diplomação, se eleito Deputado durante a legislatura;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "III - da ocorrência do fato que a ensejar, por convocação do Presidente. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 6º-A Nas hipóteses excepcionais de que trata o § 6º deste artigo, poderá o Presidente, mediante requerimento da parte interessada, colher o compromisso de posse por meio de videoconferência durante a sessão preparatória ou no mesmo dia de sua realização, nesse caso, acompanhado o ato pela Secretaria-Geral da Mesa, que lavrará o respectivo termo. (Parágrafo acrescido pela Resolução nº 37, de 2022)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 6º-B Nos casos de licença-gestante, o requerimento referido no § 6º-A deste artigo, devidamente acompanhado da declaração de parto em período inferior a 120 (cento e vinte) dias, assegurará o direito à posse virtual à parlamentar diplomada. (Parágrafo acrescido pela Resolução nº 37, de 2022)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 7º Tendo prestado o compromisso uma vez, fica o Suplente de Deputado dispensado de fazê-lo em convocações subsequentes, bem como o Deputado ao reassumir o lugar, sendo a sua volta ao exercício do mandato comunicada à Casa pelo Presidente. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 8º Não se considera investido no mandato de Deputado Federal quem deixar de prestar o compromisso nos estritos termos regimentais. "
-    },
-    {
-      "tag": "capitulo",
-      "content": "§ 9º O Presidente fará publicar, no Diário da Câmara dos Deputados do dia seguinte, a relação dos Deputados investidos no mandato, organizada de acordo com os critérios fixados no § 3º do art. 3º, a qual, com as modificações posteriores, servirá para o registro do comparecimento e verificação do quorum necessário à abertura da sessão, bem como para as votações nominais e por escrutínio secreto. (Denominação original “Diário do Congresso Nacional” alterada para “Diário da Câmara dos Deputados” para adequação ao Ato dos Presidentes das Mesas das duas Casas do Congresso Nacional, de 2 de outubro de 1995, conforme republicação determinada pelo Ato da Mesa nº 71, de 2005)"
-    },
-    {
-      "tag": "secao",
-      "content": "Seção II - Da Eleição da Mesa"
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 5º Na segunda sessão preparatória da primeira sessão legislativa de cada legislatura, no dia 1º de fevereiro, sempre que possível sob a direção da Mesa da sessão anterior, realizar-se-á a eleição do Presidente, dos demais membros da Mesa e dos Suplentes dos Secretários, para mandato de dois anos, vedada a recondução para o mesmo cargo na eleição imediatamente subsequente. (“Caput” do artigo com redação dada pela Resolução nº 19, de 2012)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 1º Não se considera recondução a eleição para o mesmo cargo em legislaturas diferentes, ainda que sucessivas. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 2º Enquanto não for escolhido o Presidente, não se procederá à apuração para os demais cargos. "
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 6º No terceiro ano de cada legislatura, em data e hora previamente designadas pelo Presidente da Câmara dos Deputados, antes de inaugurada a sessão legislativa e sob a direção da Mesa da sessão anterior, realizar-se-á a eleição do Presidente, dos demais membros da Mesa e dos Suplentes dos Secretários. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 1º (Revogado). "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 2º (Revogado). "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 3º Enquanto não for eleito o novo Presidente, dirigirá os trabalhos da Câmara dos Deputados a Mesa da sessão legislativa anterior. (Artigo com redação dada pela Resolução nº 19, de 2012)"
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 7º A eleição dos membros da Mesa far-se-á em votação por escrutínio secreto e pelo sistema eletrônico, exigido maioria absoluta de votos, em primeiro escrutínio, e maioria simples, em segundo escrutínio, presente a maioria absoluta dos Deputados, observadas as seguintes exigências e formalidades: "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "I - registro, perante a Mesa, individualmente ou por chapa, de candidatos previamente escolhidos pelas bancadas dos Partidos ou Blocos Parlamentares aos cargos que, de acordo com o principio da representação proporcional, tenham sido distribuídos a esses Partidos ou Blocos Parlamentares; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "II - chamada dos Deputados para a votação;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "III - realização de segundo escrutínio, com os 2 (dois) mais votados para cada cargo, quando, no primeiro, não se alcançar maioria absoluta; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "IV - eleição do candidato mais idoso, dentre os de maior número de legislaturas, em caso de empate;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "V - proclamação pelo Presidente do resultado final e posse imediata dos eleitos. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "Parágrafo único. No caso de avaria do sistema eletrônico de votação, far-se-á a eleição por cédulas, observados os incisos II a V do caput deste artigo e as seguintes exigências: "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "I - cédulas impressas ou datilografadas, contendo cada uma somente o nome do votado e o cargo a que concorre, embora seja um só o ato de votação para todos os cargos, ou chapa completa, desde que decorrente de acordo partidário; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "II - colocação, em cabina indevassável, das cédulas em sobrecartas que resguardem o sigilo do voto; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "III - colocação das sobrecartas em 4 (quatro) urnas, à vista do Plenário, 2 (duas) destinadas à eleição do Presidente e as outras 2 (duas) à eleição dos demais membros da Mesa; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "IV - acompanhamento dos trabalhos de apuração, na Mesa, por 2 (dois) ou mais Deputados indicados à Presidência por Partidos ou Blocos Parlamentares diferentes e por candidatos avulsos;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "V - o Secretário designado pelo Presidente retirará as sobrecartas das urnas, em primeiro lugar as destinadas à eleição do Presidente; contá-las-á e, verificada a coincidência do seu número com o dos votantes, do que será cientificado o Plenário, abri-las-á e separará as cédulas pelos cargos a preencher; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "VI - leitura pelo Presidente dos nomes dos votados; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "VII - proclamação dos votos, em voz alta, por um Secretário e sua anotação por 2 (dois) outros, à medida que apurados; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "ros, à medida que apurados; VIII - invalidação da cédula que não atenda ao disposto no inciso I deste parágrafo; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "IX - redação pelo Secretário e leitura pelo Presidente do resultado de cada eleição, na ordem decrescente dos votados. (Artigo com redação dada pela Resolução nº 45, de 2006) "
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 8º Na composição da Mesa será assegurada, tanto quanto possível, a representação proporcional dos Partidos ou Blocos Parlamentares que participem da Câmara, os quais escolherão os respectivos candidatos aos cargos que, de acordo com o mesmo princípio, lhes caiba prover, sem prejuízo de candidaturas avulsas oriundas das mesmas bancadas, observadas as seguintes regras: "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "I - a escolha será feita na forma prevista no estatuto de cada Partido, ou conforme o estabelecer a própria bancada e, ainda, segundo dispuser o ato de criação do Bloco Parlamentar; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "II - em caso de omissão, ou se a representação não fizer a indicação, caberá ao respectivo Líder fazê-la; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "III - o resultado da eleição ou a escolha constará de ata ou documento hábil, a ser enviado de imediato ao Presidente da Câmara, para publicação; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "IV - independentemente do disposto nos incisos anteriores, qualquer Deputado poderá concorrer aos cargos da Mesa que couberem à sua representação, mediante comunicação por escrito ao Presidente da Câmara, sendo-lhe assegurado o tratamento conferido aos demais candidatos. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 1º Salvo composição diversa resultante de acordo entre as bancadas, a distribuição dos cargos da Mesa far-se-á por escolha das Lideranças, da maior para a de menor representação, conforme o número de cargos que corresponda a cada uma delas. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 2º Se até 30 de novembro do segundo ano de mandato verificar-se qualquer vaga na Mesa, será ela preenchida mediante eleição, dentro de cinco sessões, observadas as disposições do artigo precedente. Ocorrida a vacância depois dessa data, a Mesa designará um dos membros titulares para responder pelo cargo. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 3º É assegurada a participação de um membro da Minoria, ainda que pela proporcionalidade não lhe caiba lugar. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 4º As vagas de cada Partido ou Bloco Parlamentar na composição da Mesa serão definidas com base no número de candidatos eleitos pela respectiva agremiação, na conformidade do resultado final das eleições proclamado pela Justiça Eleitoral, desconsideradas as mudanças de filiação partidária posteriores a esse ato. (Parágrafo acrescido pela Resolução nº 34, de 2005, em vigor a partir de 1º/2/2007) "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 5º Em caso de mudança de legenda partidária, o membro da Mesa perderá automaticamente o cargo que ocupa, aplicando-se para o preenchimento da vaga o disposto no § 2º deste artigo. (Parágrafo acrescido pela Resolução nº 34, de 2005, em vigor a partir de 1º/2/2007) "
-    },
-    {
-      "tag": "capitulo",
-      "content": "CAPÍTULO IV - DOS LÍDERES "
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 9º Os Deputados são agrupados por representações partidárias ou de Blocos Parlamentares, cabendo-lhes escolher o Líder quando a representação atender os requisitos estabelecidos no § 3º do art. 17 da Constituição Federal. (“Caput” do artigo com redação dada pela Resolução nº 30, de 2018, em vigor em 1º/2/2019, aplicando-se nos termos do art. 6º da Resolução nº 30, de 2018)"
-    },
-    {
-      "tag": "referencia",
-      "content": "§ 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:         (Redação dada pela Emenda Constitucional nº 97, de 2017)  I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou         (Incluído pela Emenda Constitucional nº 97, de 2017)  II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação.         (Incluído pela Emenda Constitucional nº 97, de 2017)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 1º Cada Líder poderá indicar Vice-Líderes, na proporção de um por quatro Deputados, ou fração, que constituam sua representação, facultada a designação de um como Primeiro Vice-Líder."
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 2º A escolha do Líder será comunicada à Mesa, no início de cada legislatura, ou após a criação de Bloco Parlamentar, em documento subscrito pela maioria absoluta dos integrantes da representação. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 3º Os Líderes permanecerão no exercício de suas funções até que nova indicação venha a ser feita pela respectiva representação. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 4º O Partido que não atenda o disposto no caput deste artigo não terá Liderança, mas poderá indicar um de seus integrantes para expressar a posição do Partido no momento da votação de proposições, ou para fazer uso da palavra, uma vez por semana, por cinco minutos, durante o período destinado às Comunicações de Lideranças. (Parágrafo com redação dada pela Resolução nº 30, de 2018, em vigor em 1º/2/2019, aplicando-se nos termos art. 6º da Resolução nº 30, de 2018)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 5º Os Líderes e Vice-Líderes não poderão integrar a Mesa. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 6º O quantitativo mínimo de Vice-Líderes previsto no § 1º será calculado com base no resultado final das eleições para a Câmara dos Deputados proclamado pelo Tribunal Superior Eleitoral. (Parágrafo acrescido pela Resolução nº 1, de 2011)"
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 10. O Líder, além de outras atribuições regimentais, tem as seguintes prerrogativas: "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "I - fazer uso da palavra, nos termos do art. 66, §§ 1º e 3º, combinado com o art. 89; (Inciso adaptado aos termos da Resolução nº 3, de 1991, conforme republicação determinada pelo Ato da Mesa nº 71, de 2005)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "II - inscrever membros da bancada para o horário destinado às Comunicações Parlamentares; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "III - participar, pessoalmente ou por intermédio dos seus Vice-Líderes, dos trabalhos de qualquer Comissão de que não seja membro, sem direito a voto, mas podendo encaminhar a votação ou requerer verificação desta;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "IV - encaminhar a votação de qualquer proposição sujeita à deliberação do Plenário, para orientar sua bancada, por tempo não superior a um minuto; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "V - registrar os candidatos do Partido ou Bloco Parlamentar para concorrer aos cargos da Mesa, e atender ao que dispõe o inciso III do art. 8º; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "VI - indicar à Mesa os membros da bancada para compor as Comissões, e, a qualquer tempo, substituí-los. "
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 11. O Presidente da República poderá indicar Deputados para exercer a Liderança do Governo, composta de Líder e de 20 (vinte) Vice-Líderes, com as prerrogativas constantes dos incisos I, III e IV do caput do art. 10 deste Regimento. (Artigo com redação dada pela Resolução nº 2, de 2023)"
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 11-A. A Liderança da Minoria será composta de Líder e de nove ViceLíderes, com as prerrogativas constantes dos incisos I, III e IV do art. 10. (“Caput” do artigo acrescido pela Resolução nº 1, de 2011, com redação dada pela Resolução nº 17, de 2016)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "pela Resolução nº 1, de 2011, com redação dada pela Resolução nº 17, de 2016) § 1º O Líder de que trata este artigo será indicado pela representação considerada Minoria, nos termos do art. 13. (Parágrafo acrescido pela Resolução nº 1, de 2011)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 2º Os nove Vice-Líderes serão indicados pelo Líder da Minoria a que se refere o § 1º, dentre os partidos que, em relação ao Governo, expressem posição contrária à da Maioria. (Parágrafo acrescido pela Resolução nº 1, de 2011, com redação dada pela Resolução nº 17, de 2016)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 3º Aplica-se o disposto neste artigo sem prejuízo das prerrogativas do Líder e Vice-Líderes do Partido ou do Bloco Parlamentar considerado Minoria conforme o art. 13. (Parágrafo acrescido pela Resolução nº 1, de 2011)"
-    },
-    {
-      "tag": "capitulo",
-      "content": "CAPÍTULO V - DOS BLOCOS PARLAMENTARES, DA MAIORIA E DA MINORIA"
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 12. As representações de dois ou mais Partidos, por deliberação das respectivas bancadas, poderão constituir Bloco Parlamentar, sob Liderança comum. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 1º O Bloco Parlamentar terá, no que couber, o tratamento dispensado por este Regimento às organizações partidárias com representação na Casa."
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 2º As Lideranças dos Partidos que se coligarem em Bloco Parlamentar perdem suas atribuições e prerrogativas regimentais."
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 3º Não será admitida a formação de Bloco Parlamentar composto de menos de três centésimos dos membros da Câmara. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 4º Se o desligamento de uma bancada implicar a perda do quorum fixado no parágrafo anterior, extingue-se o Bloco Parlamentar."
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 5º O Bloco Parlamentar tem existência circunscrita à legislatura, devendo o ato de sua criação e as alterações posteriores ser apresentados à Mesa para registro e publicação. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 6º (Revogado pela Resolução nº 34, de 2005, a partir de 1º/2/2007) "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 7º (Revogado em decorrência da revogação do § 6º pela Resolução nº 34, de 2005, em vigor a partir de 1º/2/2007, conforme republicação determinada pelo Ato da Mesa nº 71, de 2005) "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 8º A agremiação que integrava Bloco Parlamentar dissolvido, ou a que dele se desvincular, não poderá constituir ou integrar outro na mesma sessão legislativa. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 9º A agremiação integrante de Bloco Parlamentar não poderá fazer parte de outro concomitantemente."
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 10. Para efeito do que dispõe o § 4º do art. 8º e o art. 26 deste Regimento, a formação do Bloco Parlamentar deverá ser comunicada à Mesa até o dia 1º de fevereiro do 1º (primeiro) ano da legislatura, com relação às Comissões e ao 1º (primeiro) biênio de mandato da Mesa, e até o dia 1º de fevereiro do 3º (terceiro) ano da legislatura, com relação ao 2º (segundo) biênio de mandato da Mesa. (Parágrafo acrescido pela Resolução nº 34, de 2005, em vigor a partir de 1º/2/2007) "
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 13. Constitui a Maioria o Partido ou Bloco Parlamentar integrado pela maioria absoluta dos membros da Casa, considerando-se Minoria a representação imediatamente inferior que, em relação ao Governo, expresse posição diversa da Maioria. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "Parágrafo único. Se nenhuma representação atingir a maioria absoluta, assume as funções regimentais e constitucionais da Maioria o Partido ou Bloco Parlamentar que tiver o maior número de representantes. "
-    },
-    {
-      "tag": "capitulo",
-      "content": "CAPÍTULO I - DA MESA "
-    },
-    {
-      "tag": "secao",
-      "content": "Seção I - Disposições Gerais"
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 14. À Mesa, na qualidade de Comissão Diretora, incumbe a direção dos trabalhos legislativos e dos serviços administrativos da Câmara."
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 1º A Mesa compõe-se de Presidência e de Secretaria, constituindo-se, a primeira, do Presidente e de dois Vice-Presidentes e, a segunda, de quatro Secretários. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 2º A Mesa contará, ainda, com quatro Suplentes de Secretário para o efeito do §1º do art. 19. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 3º A Mesa reunir-se-á, ordinariamente, uma vez por quinzena, em dia e hora prefixados, e, extraordinariamente, sempre que convocada pelo Presidente ou por quatro de seus membros efetivos. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 4º Perderá o lugar o membro da Mesa que deixar de comparecer a cinco reuniões ordinárias consecutivas, sem causa justificada"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 5º Os membros efetivos da Mesa não poderão fazer parte de Liderança nem de Comissão Permanente, Especial ou de Inquérito. "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "§ 6º A Mesa, em ato que deverá ser publicado dentro de trinta sessões após a sua constituição, fixará a competência de cada um dos seus membros, prevalecendo a da sessão legislativa anterior enquanto não modificada. "
-    },
-    {
-      "tag": "artigo",
-      "content": "Art. 15. À Mesa compete, dentre outras atribuições estabelecidas em lei, neste Regimento ou por resolução da Câmara, ou delas implicitamente resultantes: "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "I - dirigir todos os serviços da Casa durante as sessões legislativas e nos seus interregnos e tomar as providências necessárias à regularidade dos trabalhos legislativos, ressalvada a competência da Comissão Representativa do Congresso Nacional; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "II - constituir, excluído o seu Presidente, alternadamente com a Mesa do Senado, a Mesa do Congresso Nacional, nos termos do § 5º do art. 57 da Constituição Federal; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "III - promulgar, juntamente com a Mesa do Senado Federal, emendas à Constituição; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "IV - propor ação de inconstitucionalidade, por iniciativa própria ou a requerimento de Deputado ou Comissão; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "V - dar parecer sobre a elaboração do Regimento Interno da Câmara e suas modificações; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "VI - conferir aos seus membros atribuições ou encargos referentes aos serviços legislativos e administrativos da Casa; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "VII - fixar diretrizes para a divulgação das atividades da Câmara; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "VIII - adotar medidas adequadas para promover e valorizar o Poder Legislativo e resguardar o seu conceito perante a Nação;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "IX - adotar as providências cabíveis, por solicitação do interessado, para a defesa judicial e extrajudicial de Deputado contra a ameaça ou a prática de ato atentatório do livre exercício e das prerrogativas constitucionais do mandato parlamentar; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "X - fixar, no inicio da primeira e da terceira sessões legislativas da legislatura, ouvido o Colégio de Líderes, o número de Deputados por Partido ou Bloco Parlamentar em cada Comissão Permanente; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XI - elaborar, ouvido o Colégio de Líderes e os Presidentes de Comissões Permanentes, projeto de Regulamento Interno das Comissões, que, aprovado pelo Plenário, será parte integrante deste Regimento;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XII - promover ou adotar, em virtude de decisão judicial, as providências necessárias, de sua alçada ou que se insiram na competência legislativa da Câmara dos Deputados, relativas aos arts. 102, I, q, e 103, § 2º, da Constituição Federal; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XIII - apreciar e encaminhar pedidos escritos de informação a Ministros de Estado, nos termos do art. 50, § 2º, da Constituição Federal;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XIV - declarar a perda do mandato de Deputado, nos casos previstos nos incisos III, IV e V do art. 55 da Constituição Federal, observado o disposto no § 3º do mesmo artigo;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XV - aplicar a penalidade de censura escrita a Deputado; (Inciso com redação adaptada aos termos da Resolução nº 25, de 2001, que instituiu o Código de Ética e Decoro Parlamentar da Câmara dos Deputados, conforme republicação determinada pelo Ato da Mesa nº 71, de 2005)"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XVI - decidir conclusivamente, em grau de recurso, as matérias referentes ao ordenamento jurídico de pessoal e aos serviços administrativos da Câmara;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XVII - propor, privativamente, à Câmara projeto de resolução dispondo sobre sua organização, funcionamento, polícia, regime jurídico do pessoal, criação, transformação ou extinção de cargos, empregos e funções e fixação da respectiva remuneração, observados os parâmetros estabelecidos na lei de diretrizes orçamentárias; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XVIII - prover os cargos, empregos e funções dos serviços administrativos da Câmara, bem como conceder licença, aposentadoria e vantagens devidas aos servidores, ou colocá-los em disponibilidade; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XIX - requisitar servidores da administração pública direta, indireta ou fundacional para quaisquer de seus serviços;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XX - aprovar a proposta orçamentária da Câmara e encaminhá-la ao Poder Executivo; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XXI - encaminhar ao Poder Executivo as solicitações de créditos adicionais necessários ao funcionamento da Câmara e dos seus serviços;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XXII - estabelecer os limites de competência para as autorizações de despesa;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XXIII - autorizar a assinatura de convênios e de contratos de prestação de serviços; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XXIV - aprovar o orçamento analítico da Câmara;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XXV - autorizar licitações, homologar seus resultados e aprovar o calendário de compras; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XXVI - exercer fiscalização financeira sobre as entidades subvencionadas, total ou parcialmente, pela Câmara, nos limites das verbas que lhes forem destinadas;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XXVII - encaminhar ao Tribunal de Contas da União a prestação de contas da Câmara em cada exercício financeiro; "
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XXVIII - requisitar reforço policial, nos termos do parágrafo único do art. 270;"
-    },
-    {
-      "tag": "paragrafo",
-      "content": "XXIX - apresentar à Câmara, na sessão de encerramento do ano legislativo, resenha dos trabalhos realizados, precedida de sucinto relatório sobre o seu desempenho."
-    },
-    {
-      "tag": "paragrafo",
-      "content": "Parágrafo único. Em caso de matéria inadiável, poderá o Presidente, ou quem o estiver substituindo, decidir, ad referendum da Mesa, sobre assunto de competência desta"
-    }
-  ]
+    "artigos": [
+        {
+            "titulo": "Art. 1º A Câmara dos Deputados, com sede na Capital Federal, funciona no Palácio do Congresso Nacional. ",
+            "paragrafos": [
+                [
+                    "Parágrafo único. Havendo motivo relevante, ou de força maior, a Câmara poderá, por deliberação da Mesa, ad referendum da maioria absoluta dos Deputados, reunir-se em outro edifício ou em ponto diverso no território nacional.",
+                    "CAPÍTULO II - DAS SESSÕES LEGISLATIVAS"
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 2º A Câmara dos Deputados reunir-se-á durante as sessões legislativas: ",
+            "paragrafos": [
+                [
+                    "I - ordinárias, de 2 de fevereiro a 17 de julho e de 1º de agosto a 22 de dezembro; (Inciso com redação adaptada à Emenda Constitucional nº 50, de 2006, conforme Ato da Mesa nº 80, de 2006)",
+                    "II - extraordinárias, quando, com este caráter, for convocado o Congresso Nacional. ",
+                    "§ 1º As reuniões marcadas para as datas a que se refere o inciso I serão transferidas para o primeiro dia útil subsequente quando recaírem em sábados, domingos ou feriados.",
+                    "§ 2º A primeira e a terceira sessões legislativas ordinárias de cada legislatura serão precedidas de sessões preparatórias. ",
+                    "§ 3º A sessão legislativa ordinária não será interrompida em 17 de julho, enquanto não for aprovada a lei de diretrizes orçamentárias pelo Congresso Nacional. (Parágrafo com redação adaptada à Emenda Constitucional nº 50, de 2006, conforme Ato da Mesa nº 80, de 2006)",
+                    "§ 4º Quando convocado extraordinariamente o Congresso Nacional, a Câmara dos Deputados somente deliberará sobre a matéria objeto da convocação.",
+                    "CAPÍTULO III - DAS SESSÕES PREPARATÓRIAS ",
+                    "Seção I - Da Posse dos Deputados "
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 3º O candidato diplomado Deputado Federal deverá apresentar à Mesa, pessoalmente ou por intermédio do seu Partido, até o dia 31 de janeiro do ano de instalação de cada legislatura, o diploma expedido pela Justiça Eleitoral, juntamente com a comunicação de seu nome parlamentar, legenda partidária e unidade da Federação de que proceda a representação.",
+            "paragrafos": [
+                [
+                    "§ 1º O nome parlamentar compor-se-á, salvo quando, a juízo do Presidente, devam ser evitadas confusões, apenas de dois elementos: um prenome e o nome; dois nomes; ou dois prenomes. ",
+                    "§ 2º Caberá à Secretaria-Geral da Mesa organizar a relação dos Deputados diplomados, que deverá estar concluída antes da instalação da sessão de posse. ",
+                    "§ 3º A relação será feita por Estado, Distrito Federal e Territórios, de norte a sul, na ordem geográfica das capitais e, em cada unidade federativa, na sucessão alfabética dos nomes parlamentares, com as respectivas legendas partidárias. "
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 4º No dia 1º de fevereiro do primeiro ano de cada legislatura, os candidatos diplomados Deputados Federais reunir-se-ão em sessão preparatória, na sede da Câmara dos Deputados. (“Caput” do artigo com redação dada pela Resolução nº 19, de 2012)",
+            "paragrafos": [
+                [
+                    "§ 1º Assumirá a direção dos trabalhos o último Presidente, se reeleito Deputado, e, na sua falta, o Deputado mais idoso, dentre os de maior número de legislaturas. ",
+                    "§ 2º Aberta a sessão, o Presidente convidará quatro Deputados, de preferência de Partidos diferentes, para servirem de Secretários e proclamará os nomes dos Deputados diplomados, constantes da relação a que se refere o artigo anterior. ",
+                    "§ 3º Examinadas e decididas pelo Presidente as reclamações atinentes à relação nominal dos Deputados, será tomado o compromisso solene dos empossados. De pé todos os presentes, o Presidente proferirá a seguinte declaração: \"Prometo manter, defender e cumprir a Constituição, observar as leis, promover o bem geral do povo brasileiro e sustentar a união, a integridade e a independência do Brasil\". Ato contínuo, feita a chamada, cada Deputado, de pé, a ratificará dizendo: \"Assim o prometo\", permanecendo os demais Deputados sentados e em silêncio.",
+                    "§ 4º O conteúdo do compromisso e o ritual de sua prestação não poderão ser modificados; o compromissando não poderá apresentar, no ato, declaração oral ou escrita nem ser empossado através de procurador. ",
+                    "§ 5º O Deputado empossado posteriormente prestará o compromisso em sessão e junto à Mesa, exceto durante período de recesso do Congresso Nacional, quando o fará perante o Presidente. ",
+                    "§ 6º Salvo motivo de força maior ou enfermidade devidamente comprovados, a posse dar-se-á no prazo de trinta dias, prorrogável por igual período a requerimento do interessado, contado:",
+                    "§ 6º Salvo motivo de força maior ou enfermidade devidamente comprovados, a posse dar-se-á no prazo de trinta dias, prorrogável por igual período a requerimento do interessado, contado:",
+                    "II - da diplomação, se eleito Deputado durante a legislatura;",
+                    "III - da ocorrência do fato que a ensejar, por convocação do Presidente. ",
+                    "§ 6º-A Nas hipóteses excepcionais de que trata o § 6º deste artigo, poderá o Presidente, mediante requerimento da parte interessada, colher o compromisso de posse por meio de videoconferência durante a sessão preparatória ou no mesmo dia de sua realização, nesse caso, acompanhado o ato pela Secretaria-Geral da Mesa, que lavrará o respectivo termo. (Parágrafo acrescido pela Resolução nº 37, de 2022)",
+                    "§ 6º-B Nos casos de licença-gestante, o requerimento referido no § 6º-A deste artigo, devidamente acompanhado da declaração de parto em período inferior a 120 (cento e vinte) dias, assegurará o direito à posse virtual à parlamentar diplomada. (Parágrafo acrescido pela Resolução nº 37, de 2022)",
+                    "§ 7º Tendo prestado o compromisso uma vez, fica o Suplente de Deputado dispensado de fazê-lo em convocações subsequentes, bem como o Deputado ao reassumir o lugar, sendo a sua volta ao exercício do mandato comunicada à Casa pelo Presidente. ",
+                    "§ 8º Não se considera investido no mandato de Deputado Federal quem deixar de prestar o compromisso nos estritos termos regimentais. ",
+                    "§ 9º O Presidente fará publicar, no Diário da Câmara dos Deputados do dia seguinte, a relação dos Deputados investidos no mandato, organizada de acordo com os critérios fixados no § 3º do art. 3º, a qual, com as modificações posteriores, servirá para o registro do comparecimento e verificação do quorum necessário à abertura da sessão, bem como para as votações nominais e por escrutínio secreto. (Denominação original “Diário do Congresso Nacional” alterada para “Diário da Câmara dos Deputados” para adequação ao Ato dos Presidentes das Mesas das duas Casas do Congresso Nacional, de 2 de outubro de 1995, conforme republicação determinada pelo Ato da Mesa nº 71, de 2005)",
+                    "Seção II - Da Eleição da Mesa"
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 5º Na segunda sessão preparatória da primeira sessão legislativa de cada legislatura, no dia 1º de fevereiro, sempre que possível sob a direção da Mesa da sessão anterior, realizar-se-á a eleição do Presidente, dos demais membros da Mesa e dos Suplentes dos Secretários, para mandato de dois anos, vedada a recondução para o mesmo cargo na eleição imediatamente subsequente. (“Caput” do artigo com redação dada pela Resolução nº 19, de 2012)",
+            "paragrafos": [
+                [
+                    "§ 1º Não se considera recondução a eleição para o mesmo cargo em legislaturas diferentes, ainda que sucessivas. ",
+                    "§ 2º Enquanto não for escolhido o Presidente, não se procederá à apuração para os demais cargos. "
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 6º No terceiro ano de cada legislatura, em data e hora previamente designadas pelo Presidente da Câmara dos Deputados, antes de inaugurada a sessão legislativa e sob a direção da Mesa da sessão anterior, realizar-se-á a eleição do Presidente, dos demais membros da Mesa e dos Suplentes dos Secretários. ",
+            "paragrafos": [
+                [
+                    "§ 1º (Revogado). ",
+                    "§ 2º (Revogado). ",
+                    "§ 3º Enquanto não for eleito o novo Presidente, dirigirá os trabalhos da Câmara dos Deputados a Mesa da sessão legislativa anterior. (Artigo com redação dada pela Resolução nº 19, de 2012)"
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 7º A eleição dos membros da Mesa far-se-á em votação por escrutínio secreto e pelo sistema eletrônico, exigido maioria absoluta de votos, em primeiro escrutínio, e maioria simples, em segundo escrutínio, presente a maioria absoluta dos Deputados, observadas as seguintes exigências e formalidades: ",
+            "paragrafos": [
+                [
+                    "I - registro, perante a Mesa, individualmente ou por chapa, de candidatos previamente escolhidos pelas bancadas dos Partidos ou Blocos Parlamentares aos cargos que, de acordo com o principio da representação proporcional, tenham sido distribuídos a esses Partidos ou Blocos Parlamentares; ",
+                    "II - chamada dos Deputados para a votação;",
+                    "III - realização de segundo escrutínio, com os 2 (dois) mais votados para cada cargo, quando, no primeiro, não se alcançar maioria absoluta; ",
+                    "IV - eleição do candidato mais idoso, dentre os de maior número de legislaturas, em caso de empate;",
+                    "V - proclamação pelo Presidente do resultado final e posse imediata dos eleitos. ",
+                    "Parágrafo único. No caso de avaria do sistema eletrônico de votação, far-se-á a eleição por cédulas, observados os incisos II a V do caput deste artigo e as seguintes exigências: ",
+                    "I - cédulas impressas ou datilografadas, contendo cada uma somente o nome do votado e o cargo a que concorre, embora seja um só o ato de votação para todos os cargos, ou chapa completa, desde que decorrente de acordo partidário; ",
+                    "II - colocação, em cabina indevassável, das cédulas em sobrecartas que resguardem o sigilo do voto; ",
+                    "III - colocação das sobrecartas em 4 (quatro) urnas, à vista do Plenário, 2 (duas) destinadas à eleição do Presidente e as outras 2 (duas) à eleição dos demais membros da Mesa; ",
+                    "IV - acompanhamento dos trabalhos de apuração, na Mesa, por 2 (dois) ou mais Deputados indicados à Presidência por Partidos ou Blocos Parlamentares diferentes e por candidatos avulsos;",
+                    "V - o Secretário designado pelo Presidente retirará as sobrecartas das urnas, em primeiro lugar as destinadas à eleição do Presidente; contá-las-á e, verificada a coincidência do seu número com o dos votantes, do que será cientificado o Plenário, abri-las-á e separará as cédulas pelos cargos a preencher; ",
+                    "VI - leitura pelo Presidente dos nomes dos votados; ",
+                    "VII - proclamação dos votos, em voz alta, por um Secretário e sua anotação por 2 (dois) outros, à medida que apurados; ",
+                    "ros, à medida que apurados; VIII - invalidação da cédula que não atenda ao disposto no inciso I deste parágrafo; ",
+                    "IX - redação pelo Secretário e leitura pelo Presidente do resultado de cada eleição, na ordem decrescente dos votados. (Artigo com redação dada pela Resolução nº 45, de 2006) "
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 8º Na composição da Mesa será assegurada, tanto quanto possível, a representação proporcional dos Partidos ou Blocos Parlamentares que participem da Câmara, os quais escolherão os respectivos candidatos aos cargos que, de acordo com o mesmo princípio, lhes caiba prover, sem prejuízo de candidaturas avulsas oriundas das mesmas bancadas, observadas as seguintes regras: ",
+            "paragrafos": [
+                [
+                    "I - a escolha será feita na forma prevista no estatuto de cada Partido, ou conforme o estabelecer a própria bancada e, ainda, segundo dispuser o ato de criação do Bloco Parlamentar; ",
+                    "II - em caso de omissão, ou se a representação não fizer a indicação, caberá ao respectivo Líder fazê-la; ",
+                    "III - o resultado da eleição ou a escolha constará de ata ou documento hábil, a ser enviado de imediato ao Presidente da Câmara, para publicação; ",
+                    "IV - independentemente do disposto nos incisos anteriores, qualquer Deputado poderá concorrer aos cargos da Mesa que couberem à sua representação, mediante comunicação por escrito ao Presidente da Câmara, sendo-lhe assegurado o tratamento conferido aos demais candidatos. ",
+                    "§ 1º Salvo composição diversa resultante de acordo entre as bancadas, a distribuição dos cargos da Mesa far-se-á por escolha das Lideranças, da maior para a de menor representação, conforme o número de cargos que corresponda a cada uma delas. ",
+                    "§ 2º Se até 30 de novembro do segundo ano de mandato verificar-se qualquer vaga na Mesa, será ela preenchida mediante eleição, dentro de cinco sessões, observadas as disposições do artigo precedente. Ocorrida a vacância depois dessa data, a Mesa designará um dos membros titulares para responder pelo cargo. ",
+                    "§ 3º É assegurada a participação de um membro da Minoria, ainda que pela proporcionalidade não lhe caiba lugar. ",
+                    "§ 4º As vagas de cada Partido ou Bloco Parlamentar na composição da Mesa serão definidas com base no número de candidatos eleitos pela respectiva agremiação, na conformidade do resultado final das eleições proclamado pela Justiça Eleitoral, desconsideradas as mudanças de filiação partidária posteriores a esse ato. (Parágrafo acrescido pela Resolução nº 34, de 2005, em vigor a partir de 1º/2/2007) ",
+                    "§ 5º Em caso de mudança de legenda partidária, o membro da Mesa perderá automaticamente o cargo que ocupa, aplicando-se para o preenchimento da vaga o disposto no § 2º deste artigo. (Parágrafo acrescido pela Resolução nº 34, de 2005, em vigor a partir de 1º/2/2007) ",
+                    "CAPÍTULO IV - DOS LÍDERES "
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 9º Os Deputados são agrupados por representações partidárias ou de Blocos Parlamentares, cabendo-lhes escolher o Líder quando a representação atender os requisitos estabelecidos no § 3º do art. 17 da Constituição Federal. (“Caput” do artigo com redação dada pela Resolução nº 30, de 2018, em vigor em 1º/2/2019, aplicando-se nos termos do art. 6º da Resolução nº 30, de 2018)",
+            "paragrafos": [
+                [
+                    "§ 3º Somente terão direito a recursos do fundo partidário e acesso gratuito ao rádio e à televisão, na forma da lei, os partidos políticos que alternativamente:         (Redação dada pela Emenda Constitucional nº 97, de 2017)  I - obtiverem, nas eleições para a Câmara dos Deputados, no mínimo, 3% (três por cento) dos votos válidos, distribuídos em pelo menos um terço das unidades da Federação, com um mínimo de 2% (dois por cento) dos votos válidos em cada uma delas; ou         (Incluído pela Emenda Constitucional nº 97, de 2017)  II - tiverem elegido pelo menos quinze Deputados Federais distribuídos em pelo menos um terço das unidades da Federação.         (Incluído pela Emenda Constitucional nº 97, de 2017)",
+                    "§ 1º Cada Líder poderá indicar Vice-Líderes, na proporção de um por quatro Deputados, ou fração, que constituam sua representação, facultada a designação de um como Primeiro Vice-Líder.",
+                    "§ 2º A escolha do Líder será comunicada à Mesa, no início de cada legislatura, ou após a criação de Bloco Parlamentar, em documento subscrito pela maioria absoluta dos integrantes da representação. ",
+                    "§ 3º Os Líderes permanecerão no exercício de suas funções até que nova indicação venha a ser feita pela respectiva representação. ",
+                    "§ 4º O Partido que não atenda o disposto no caput deste artigo não terá Liderança, mas poderá indicar um de seus integrantes para expressar a posição do Partido no momento da votação de proposições, ou para fazer uso da palavra, uma vez por semana, por cinco minutos, durante o período destinado às Comunicações de Lideranças. (Parágrafo com redação dada pela Resolução nº 30, de 2018, em vigor em 1º/2/2019, aplicando-se nos termos art. 6º da Resolução nº 30, de 2018)",
+                    "§ 5º Os Líderes e Vice-Líderes não poderão integrar a Mesa. ",
+                    "§ 6º O quantitativo mínimo de Vice-Líderes previsto no § 1º será calculado com base no resultado final das eleições para a Câmara dos Deputados proclamado pelo Tribunal Superior Eleitoral. (Parágrafo acrescido pela Resolução nº 1, de 2011)"
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 10. O Líder, além de outras atribuições regimentais, tem as seguintes prerrogativas: ",
+            "paragrafos": [
+                [
+                    "I - fazer uso da palavra, nos termos do art. 66, §§ 1º e 3º, combinado com o art. 89; (Inciso adaptado aos termos da Resolução nº 3, de 1991, conforme republicação determinada pelo Ato da Mesa nº 71, de 2005)",
+                    "II - inscrever membros da bancada para o horário destinado às Comunicações Parlamentares; ",
+                    "III - participar, pessoalmente ou por intermédio dos seus Vice-Líderes, dos trabalhos de qualquer Comissão de que não seja membro, sem direito a voto, mas podendo encaminhar a votação ou requerer verificação desta;",
+                    "IV - encaminhar a votação de qualquer proposição sujeita à deliberação do Plenário, para orientar sua bancada, por tempo não superior a um minuto; ",
+                    "V - registrar os candidatos do Partido ou Bloco Parlamentar para concorrer aos cargos da Mesa, e atender ao que dispõe o inciso III do art. 8º; ",
+                    "VI - indicar à Mesa os membros da bancada para compor as Comissões, e, a qualquer tempo, substituí-los. "
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 11. O Presidente da República poderá indicar Deputados para exercer a Liderança do Governo, composta de Líder e de 20 (vinte) Vice-Líderes, com as prerrogativas constantes dos incisos I, III e IV do caput do art. 10 deste Regimento. (Artigo com redação dada pela Resolução nº 2, de 2023)",
+            "paragrafos": [
+                []
+            ]
+        },
+        {
+            "titulo": "Art. 11-A. A Liderança da Minoria será composta de Líder e de nove ViceLíderes, com as prerrogativas constantes dos incisos I, III e IV do art. 10. (“Caput” do artigo acrescido pela Resolução nº 1, de 2011, com redação dada pela Resolução nº 17, de 2016)",
+            "paragrafos": [
+                [
+                    "pela Resolução nº 1, de 2011, com redação dada pela Resolução nº 17, de 2016) § 1º O Líder de que trata este artigo será indicado pela representação considerada Minoria, nos termos do art. 13. (Parágrafo acrescido pela Resolução nº 1, de 2011)",
+                    "§ 2º Os nove Vice-Líderes serão indicados pelo Líder da Minoria a que se refere o § 1º, dentre os partidos que, em relação ao Governo, expressem posição contrária à da Maioria. (Parágrafo acrescido pela Resolução nº 1, de 2011, com redação dada pela Resolução nº 17, de 2016)",
+                    "§ 3º Aplica-se o disposto neste artigo sem prejuízo das prerrogativas do Líder e Vice-Líderes do Partido ou do Bloco Parlamentar considerado Minoria conforme o art. 13. (Parágrafo acrescido pela Resolução nº 1, de 2011)",
+                    "CAPÍTULO V - DOS BLOCOS PARLAMENTARES, DA MAIORIA E DA MINORIA"
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 12. As representações de dois ou mais Partidos, por deliberação das respectivas bancadas, poderão constituir Bloco Parlamentar, sob Liderança comum. ",
+            "paragrafos": [
+                [
+                    "§ 1º O Bloco Parlamentar terá, no que couber, o tratamento dispensado por este Regimento às organizações partidárias com representação na Casa.",
+                    "§ 2º As Lideranças dos Partidos que se coligarem em Bloco Parlamentar perdem suas atribuições e prerrogativas regimentais.",
+                    "§ 3º Não será admitida a formação de Bloco Parlamentar composto de menos de três centésimos dos membros da Câmara. ",
+                    "§ 4º Se o desligamento de uma bancada implicar a perda do quorum fixado no parágrafo anterior, extingue-se o Bloco Parlamentar.",
+                    "§ 5º O Bloco Parlamentar tem existência circunscrita à legislatura, devendo o ato de sua criação e as alterações posteriores ser apresentados à Mesa para registro e publicação. ",
+                    "§ 6º (Revogado pela Resolução nº 34, de 2005, a partir de 1º/2/2007) ",
+                    "§ 7º (Revogado em decorrência da revogação do § 6º pela Resolução nº 34, de 2005, em vigor a partir de 1º/2/2007, conforme republicação determinada pelo Ato da Mesa nº 71, de 2005) ",
+                    "§ 8º A agremiação que integrava Bloco Parlamentar dissolvido, ou a que dele se desvincular, não poderá constituir ou integrar outro na mesma sessão legislativa. ",
+                    "§ 9º A agremiação integrante de Bloco Parlamentar não poderá fazer parte de outro concomitantemente.",
+                    "§ 10. Para efeito do que dispõe o § 4º do art. 8º e o art. 26 deste Regimento, a formação do Bloco Parlamentar deverá ser comunicada à Mesa até o dia 1º de fevereiro do 1º (primeiro) ano da legislatura, com relação às Comissões e ao 1º (primeiro) biênio de mandato da Mesa, e até o dia 1º de fevereiro do 3º (terceiro) ano da legislatura, com relação ao 2º (segundo) biênio de mandato da Mesa. (Parágrafo acrescido pela Resolução nº 34, de 2005, em vigor a partir de 1º/2/2007) "
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 13. Constitui a Maioria o Partido ou Bloco Parlamentar integrado pela maioria absoluta dos membros da Casa, considerando-se Minoria a representação imediatamente inferior que, em relação ao Governo, expresse posição diversa da Maioria. ",
+            "paragrafos": [
+                [
+                    "Parágrafo único. Se nenhuma representação atingir a maioria absoluta, assume as funções regimentais e constitucionais da Maioria o Partido ou Bloco Parlamentar que tiver o maior número de representantes. ",
+                    "CAPÍTULO I - DA MESA ",
+                    "Seção I - Disposições Gerais"
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 14. À Mesa, na qualidade de Comissão Diretora, incumbe a direção dos trabalhos legislativos e dos serviços administrativos da Câmara.",
+            "paragrafos": [
+                [
+                    "§ 1º A Mesa compõe-se de Presidência e de Secretaria, constituindo-se, a primeira, do Presidente e de dois Vice-Presidentes e, a segunda, de quatro Secretários. ",
+                    "§ 2º A Mesa contará, ainda, com quatro Suplentes de Secretário para o efeito do §1º do art. 19. ",
+                    "§ 3º A Mesa reunir-se-á, ordinariamente, uma vez por quinzena, em dia e hora prefixados, e, extraordinariamente, sempre que convocada pelo Presidente ou por quatro de seus membros efetivos. ",
+                    "§ 4º Perderá o lugar o membro da Mesa que deixar de comparecer a cinco reuniões ordinárias consecutivas, sem causa justificada",
+                    "§ 5º Os membros efetivos da Mesa não poderão fazer parte de Liderança nem de Comissão Permanente, Especial ou de Inquérito. ",
+                    "§ 6º A Mesa, em ato que deverá ser publicado dentro de trinta sessões após a sua constituição, fixará a competência de cada um dos seus membros, prevalecendo a da sessão legislativa anterior enquanto não modificada. "
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 15. À Mesa compete, dentre outras atribuições estabelecidas em lei, neste Regimento ou por resolução da Câmara, ou delas implicitamente resultantes: ",
+            "paragrafos": [
+                [
+                    "I - dirigir todos os serviços da Casa durante as sessões legislativas e nos seus interregnos e tomar as providências necessárias à regularidade dos trabalhos legislativos, ressalvada a competência da Comissão Representativa do Congresso Nacional; ",
+                    "II - constituir, excluído o seu Presidente, alternadamente com a Mesa do Senado, a Mesa do Congresso Nacional, nos termos do § 5º do art. 57 da Constituição Federal; ",
+                    "III - promulgar, juntamente com a Mesa do Senado Federal, emendas à Constituição; ",
+                    "IV - propor ação de inconstitucionalidade, por iniciativa própria ou a requerimento de Deputado ou Comissão; ",
+                    "V - dar parecer sobre a elaboração do Regimento Interno da Câmara e suas modificações; ",
+                    "VI - conferir aos seus membros atribuições ou encargos referentes aos serviços legislativos e administrativos da Casa; ",
+                    "VII - fixar diretrizes para a divulgação das atividades da Câmara; ",
+                    "VIII - adotar medidas adequadas para promover e valorizar o Poder Legislativo e resguardar o seu conceito perante a Nação;",
+                    "IX - adotar as providências cabíveis, por solicitação do interessado, para a defesa judicial e extrajudicial de Deputado contra a ameaça ou a prática de ato atentatório do livre exercício e das prerrogativas constitucionais do mandato parlamentar; ",
+                    "X - fixar, no inicio da primeira e da terceira sessões legislativas da legislatura, ouvido o Colégio de Líderes, o número de Deputados por Partido ou Bloco Parlamentar em cada Comissão Permanente; ",
+                    "XI - elaborar, ouvido o Colégio de Líderes e os Presidentes de Comissões Permanentes, projeto de Regulamento Interno das Comissões, que, aprovado pelo Plenário, será parte integrante deste Regimento;",
+                    "XII - promover ou adotar, em virtude de decisão judicial, as providências necessárias, de sua alçada ou que se insiram na competência legislativa da Câmara dos Deputados, relativas aos arts. 102, I, q, e 103, § 2º, da Constituição Federal; ",
+                    "XIII - apreciar e encaminhar pedidos escritos de informação a Ministros de Estado, nos termos do art. 50, § 2º, da Constituição Federal;",
+                    "XIV - declarar a perda do mandato de Deputado, nos casos previstos nos incisos III, IV e V do art. 55 da Constituição Federal, observado o disposto no § 3º do mesmo artigo;",
+                    "XV - aplicar a penalidade de censura escrita a Deputado; (Inciso com redação adaptada aos termos da Resolução nº 25, de 2001, que instituiu o Código de Ética e Decoro Parlamentar da Câmara dos Deputados, conforme republicação determinada pelo Ato da Mesa nº 71, de 2005)",
+                    "XVI - decidir conclusivamente, em grau de recurso, as matérias referentes ao ordenamento jurídico de pessoal e aos serviços administrativos da Câmara;",
+                    "XVII - propor, privativamente, à Câmara projeto de resolução dispondo sobre sua organização, funcionamento, polícia, regime jurídico do pessoal, criação, transformação ou extinção de cargos, empregos e funções e fixação da respectiva remuneração, observados os parâmetros estabelecidos na lei de diretrizes orçamentárias; ",
+                    "XVIII - prover os cargos, empregos e funções dos serviços administrativos da Câmara, bem como conceder licença, aposentadoria e vantagens devidas aos servidores, ou colocá-los em disponibilidade; ",
+                    "XIX - requisitar servidores da administração pública direta, indireta ou fundacional para quaisquer de seus serviços;",
+                    "XX - aprovar a proposta orçamentária da Câmara e encaminhá-la ao Poder Executivo; ",
+                    "XXI - encaminhar ao Poder Executivo as solicitações de créditos adicionais necessários ao funcionamento da Câmara e dos seus serviços;",
+                    "XXII - estabelecer os limites de competência para as autorizações de despesa;",
+                    "XXIII - autorizar a assinatura de convênios e de contratos de prestação de serviços; ",
+                    "XXIV - aprovar o orçamento analítico da Câmara;",
+                    "XXV - autorizar licitações, homologar seus resultados e aprovar o calendário de compras; ",
+                    "XXVI - exercer fiscalização financeira sobre as entidades subvencionadas, total ou parcialmente, pela Câmara, nos limites das verbas que lhes forem destinadas;",
+                    "XXVII - encaminhar ao Tribunal de Contas da União a prestação de contas da Câmara em cada exercício financeiro; ",
+                    "XXVIII - requisitar reforço policial, nos termos do parágrafo único do art. 270;",
+                    "XXIX - apresentar à Câmara, na sessão de encerramento do ano legislativo, resenha dos trabalhos realizados, precedida de sucinto relatório sobre o seu desempenho.",
+                    "Parágrafo único. Em caso de matéria inadiável, poderá o Presidente, ou quem o estiver substituindo, decidir, ad referendum da Mesa, sobre assunto de competência desta"
+                ]
+            ]
+        },
+        {
+            "titulo": "Art. 15. À Mesa compete, dentre outras atribuições estabelecidas em lei, neste Regimento ou por resolução da Câmara, ou delas implicitamente resultantes: ",
+            "paragrafos": [
+                [
+                    "I - dirigir todos os serviços da Casa durante as sessões legislativas e nos seus interregnos e tomar as providências necessárias à regularidade dos trabalhos legislativos, ressalvada a competência da Comissão Representativa do Congresso Nacional; ",
+                    "II - constituir, excluído o seu Presidente, alternadamente com a Mesa do Senado, a Mesa do Congresso Nacional, nos termos do § 5º do art. 57 da Constituição Federal; ",
+                    "III - promulgar, juntamente com a Mesa do Senado Federal, emendas à Constituição; ",
+                    "IV - propor ação de inconstitucionalidade, por iniciativa própria ou a requerimento de Deputado ou Comissão; ",
+                    "V - dar parecer sobre a elaboração do Regimento Interno da Câmara e suas modificações; ",
+                    "VI - conferir aos seus membros atribuições ou encargos referentes aos serviços legislativos e administrativos da Casa; ",
+                    "VII - fixar diretrizes para a divulgação das atividades da Câmara; ",
+                    "VIII - adotar medidas adequadas para promover e valorizar o Poder Legislativo e resguardar o seu conceito perante a Nação;",
+                    "IX - adotar as providências cabíveis, por solicitação do interessado, para a defesa judicial e extrajudicial de Deputado contra a ameaça ou a prática de ato atentatório do livre exercício e das prerrogativas constitucionais do mandato parlamentar; ",
+                    "X - fixar, no inicio da primeira e da terceira sessões legislativas da legislatura, ouvido o Colégio de Líderes, o número de Deputados por Partido ou Bloco Parlamentar em cada Comissão Permanente; ",
+                    "XI - elaborar, ouvido o Colégio de Líderes e os Presidentes de Comissões Permanentes, projeto de Regulamento Interno das Comissões, que, aprovado pelo Plenário, será parte integrante deste Regimento;",
+                    "XII - promover ou adotar, em virtude de decisão judicial, as providências necessárias, de sua alçada ou que se insiram na competência legislativa da Câmara dos Deputados, relativas aos arts. 102, I, q, e 103, § 2º, da Constituição Federal; ",
+                    "XIII - apreciar e encaminhar pedidos escritos de informação a Ministros de Estado, nos termos do art. 50, § 2º, da Constituição Federal;",
+                    "XIV - declarar a perda do mandato de Deputado, nos casos previstos nos incisos III, IV e V do art. 55 da Constituição Federal, observado o disposto no § 3º do mesmo artigo;",
+                    "XV - aplicar a penalidade de censura escrita a Deputado; (Inciso com redação adaptada aos termos da Resolução nº 25, de 2001, que instituiu o Código de Ética e Decoro Parlamentar da Câmara dos Deputados, conforme republicação determinada pelo Ato da Mesa nº 71, de 2005)",
+                    "XVI - decidir conclusivamente, em grau de recurso, as matérias referentes ao ordenamento jurídico de pessoal e aos serviços administrativos da Câmara;",
+                    "XVII - propor, privativamente, à Câmara projeto de resolução dispondo sobre sua organização, funcionamento, polícia, regime jurídico do pessoal, criação, transformação ou extinção de cargos, empregos e funções e fixação da respectiva remuneração, observados os parâmetros estabelecidos na lei de diretrizes orçamentárias; ",
+                    "XVIII - prover os cargos, empregos e funções dos serviços administrativos da Câmara, bem como conceder licença, aposentadoria e vantagens devidas aos servidores, ou colocá-los em disponibilidade; ",
+                    "XIX - requisitar servidores da administração pública direta, indireta ou fundacional para quaisquer de seus serviços;",
+                    "XX - aprovar a proposta orçamentária da Câmara e encaminhá-la ao Poder Executivo; ",
+                    "XXI - encaminhar ao Poder Executivo as solicitações de créditos adicionais necessários ao funcionamento da Câmara e dos seus serviços;",
+                    "XXII - estabelecer os limites de competência para as autorizações de despesa;",
+                    "XXIII - autorizar a assinatura de convênios e de contratos de prestação de serviços; ",
+                    "XXIV - aprovar o orçamento analítico da Câmara;",
+                    "XXV - autorizar licitações, homologar seus resultados e aprovar o calendário de compras; ",
+                    "XXVI - exercer fiscalização financeira sobre as entidades subvencionadas, total ou parcialmente, pela Câmara, nos limites das verbas que lhes forem destinadas;",
+                    "XXVII - encaminhar ao Tribunal de Contas da União a prestação de contas da Câmara em cada exercício financeiro; ",
+                    "XXVIII - requisitar reforço policial, nos termos do parágrafo único do art. 270;",
+                    "XXIX - apresentar à Câmara, na sessão de encerramento do ano legislativo, resenha dos trabalhos realizados, precedida de sucinto relatório sobre o seu desempenho.",
+                    "Parágrafo único. Em caso de matéria inadiável, poderá o Presidente, ou quem o estiver substituindo, decidir, ad referendum da Mesa, sobre assunto de competência desta"
+                ]
+            ]
+        }
+    ]
 }

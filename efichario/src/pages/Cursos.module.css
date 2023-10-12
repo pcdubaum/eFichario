@@ -1,0 +1,52 @@
+.cursos{
+
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.titulo{
+    height: 400px;
+    width: 380px;
+    background-image: url("../../public/img/pcdf.jpg");
+
+    border: 2px solid #343637;
+    border-radius: 5px 5px 0px 0px;
+    color: #D8D9DA;
+    display: flex;
+    justify-content: none;
+    flex-direction: column;
+}
+
+.mostruario{
+    min-width: 980px;
+    max-width: 1180px;
+    margin: auto;
+    color: #D8D9DA;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.conjunto{
+    width: 380px;
+    border: 2px solid #343637;
+    border-radius: 0px 0px 5px 5px;
+    color: #D8D9DA;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+h1{
+    font-size: xx-large;
+    color:  #61677A;
+}
+
+h2#mostruario{
+    margin: auto;
+    margin-top: 12px;
+    font-size: medium;
+    text-align: center;
+}

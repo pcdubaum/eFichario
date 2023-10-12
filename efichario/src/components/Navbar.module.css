@@ -37,7 +37,10 @@ input {
 }
 
 .bottomContent{
+    background-image: url('../../public/img/Generico.png');
+    background-size: cover;
     background-color: #61677A;
+    background-blend-mode: multiply;
     display: flex;
     justify-content: space-between;
     padding-left: 25px;
@@ -62,7 +65,7 @@ input {
     padding-right: 25px;
 }
 
-button{
+:local(button){
     border-radius: 5px;
     height: 30px;
     margin: auto;
