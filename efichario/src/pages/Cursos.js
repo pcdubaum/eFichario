@@ -15,7 +15,7 @@ const Cursos = () => {
         const fetch = async () => {
             try {
                 // Faz uma solicitação GET para a URL da API
-                const response = await axios.get('http://192.168.0.107:3001/api/v2/leis/?' + "materias=camara_dos_deputados&fields=_id,nome,artigos,autor,criadoEm");
+                const response = await axios.get('http://192.168.0.107:3001/api/v2/leis/?' + "materias=teste&fields=_id,nome,artigos,autor,criadoEm");
                 //console.log(response); // Exibe a resposta no console para depuração
 
                 // Verifica se a resposta da API tem um status de 200 (OK)

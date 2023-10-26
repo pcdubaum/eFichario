@@ -13,7 +13,7 @@ const Paragrafos = ({lista, numero}) => {
       const onChangeVal = [...lista]
       onChangeVal[i][name] = value
       lista = onChangeVal
-      console.log(lista[i].value);
+
       }
 
   return (
