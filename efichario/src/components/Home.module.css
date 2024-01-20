@@ -1,20 +1,72 @@
-.janelao{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+article{
+    min-width: 980px;
+    max-width: 1180px;
     margin: auto;
 }
 
-.janela{
-    margin-top: 7%;
-    width: 392px;
-    min-height: 580px;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-    background-color: white;
+h1{
+    font-size: xx-large;
 }
 
-.janela#right{
-    padding: 32px;
+h2{
+    font-size: large;
+    text-align: center;
+}
+
+.central{
+    margin-top: 30%;
+}
+
+.titulo{
+    background-image: url('../../public/img/Generico.png');
+    background-size: cover;
+    background-color: #61677A;
+    background-blend-mode: multiply;
+    border-radius: 5px 5px 0px 0px;
+    margin-top: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+.conjunto{
+    border: 2px solid #343637;
+    border-radius: 0px 0px 5px 5px;
+    color: #D8D9DA;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    padding-bottom: 25px;
+}
+
+.materia{
+    width: 30%;    
+}
+
+.leitura2{
+    width: auto;    
+}
+
+.corpo{
+    border: 2px solid #343637;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
     text-align: left;
+    border-radius: 0px 0px 5px 5px;
+    padding-left: 20px;
 }
 
+.leitura{
+    color: #D8D9DA;
+    text-align: left;
+    min-width: 980px;
+    max-width: 1180px;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.exemplo{
+    color: #D8D9DA;
+}

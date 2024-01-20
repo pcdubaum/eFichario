@@ -14,7 +14,7 @@ const Capsula = (texto) => {
       <div className={styles.conjunto} id={styles.paragrafos}>
 
   
-        {texto.paragrafos !== undefined && texto.paragrafos.map((e, key) => (
+        {texto.paragrafos.map((e, key) => (
           (e.map((val, key2) => (
             <div key={key2}>{console.log(val.paragrafo)}
             <h2>{val.paragrafo}</h2></div>

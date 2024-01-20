@@ -1,22 +1,9 @@
-import React, { useState } from 'react';
-import styles from "../components/Home.module.css";
-import Titulo from '../components/Titulo';
-import Capsula from '../components/Capsula';
+import React from 'react'
+import styles from "../components/Home.module.css"
+import Titulo from '../components/Titulo'
+import Capsula from '../components/Capsula'
 
 const Acentuacao = () => {
-
-        const [capsulas, setCapsulas] = useState([]);
-
-        setCapsulas([...capsulas, 
-                {titulo: "Toda proparoxítona é acentuada.", 
-                        texto:"São palavras que têm a antepenúltima sílaba da palavra como sílaba tônica.", 
-                        exemplo:"Lâmpada, Árvore, Ginástica, Fanático, Júpiter, Olimpíada (O-lim-pí-a-da), Zodíaco (Zo-dí-a-co)" }]);
-
-        setCapsulas([...capsulas, 
-                {titulo: "Acentuam-se as paroxítonas não terminadas em A, E, O e EM (seguidas ou não de S).",
-                        texto:"São palavras que têm a penúltima sílaba da palavra como sílaba tônica. Maioritariamente não são acentuadas e representam a maioria das palavras da língua portuguesa.",
-                        exemplo:"Caráter, Táxis, Hífen, Amável, Ânus, Tórax, Tríceps, Álbum." }]);
-
         return (
                 <article>
                         <Titulo texto="Língua Portuguesa - Regras de Acentuação" />

@@ -1,9 +1,8 @@
 import React from 'react'
 import {useState, useEffect} from 'react'
-import styles from './Cursos.module.css'
+import styles from './CriarLei.module.css'
 import axios from 'axios'
-import { NavLink } from 'react-router-dom'
-import UsuarioNavBar from './UsuarioNavBar'
+import { Link } from 'react-router-dom'
 
 const Cursos = () => {
 
@@ -16,7 +15,7 @@ const Cursos = () => {
         const fetch = async () => {
             try {
                 // Faz uma solicitação GET para a URL da API
-                const response = await axios.get('https://env-3833985.jelastic.saveincloud.net/api/v2/leis/?' + "fields=_id,nome,artigos,autor,criadoEm");
+                const response = await axios.get('http://192.168.0.107:3001/api/v2/leis/?' + "materias=teste&fields=_id,nome,artigos,autor,criadoEm");
                 //console.log(response); // Exibe a resposta no console para depuração
 
                 // Verifica se a resposta da API tem um status de 200 (OK)
@@ -53,35 +52,22 @@ const Cursos = () => {
 
 
   return (
-      <div>
-          <UsuarioNavBar />
-          <div className={styles.window}>
-            <h1>Cursos Disponíveis</h1>
-            <div className={styles.window} id={styles.conteiner}>
-                 <div>  <NavLink to="/consursos/cnu">
-                    <button type="button" className={styles.button} id={styles.cursos}></button>
-                    <h2>Concuros Nacional Unificado</h2>
-                    </NavLink>
-                </div>
-                <div>
-                    <button type="button" className={styles.button} id={styles.cursos}></button>
-                    <h2>Policia Civil - Agente de Custódia</h2>
-                </div>
+      <div className={styles.mostruario}> 
+          {carregamento &&
+          <div className={styles.cursos}>
+          <div className={styles.titulo}><h1>Camara</h1></div>
 
-                <div>
-                    <button type="button" className={styles.button} id={styles.cursos}></button>
-                    <h2>Concurso Unificado TSE</h2>
+          <div className={styles.conjunto}>
+              {aulas.lei.map((i, key) => (
+                <div> 
+                    <div> <h2 id={styles.mostruario}>{i.nome}</h2> </div>
+                    <div> <Link to={`/lerlei/${i._id}`}><h2 id={styles.mostruario}>(leitura)</h2></Link> </div>
+                    <br></br>
                 </div>
-
-                <div>
-                    <button type="button" className={styles.button} id={styles.cursos}></button>
-                    <h2>Polícia Federal</h2>
-                </div>
-
-                 </div>
-            <div className={styles.window} id={styles.direita}><NavLink to={`/criarlei/`}><h2 id={styles.mostruario}>Criar Nova Lei</h2></NavLink></div>
-         </div>
-          
+                ))}
+          </div>
+      </div>}
+      <Link to={`/criarlei/`}><h2 id={styles.mostruario}>Criar Nova Lei</h2></Link>
       </div>
   )
 }
