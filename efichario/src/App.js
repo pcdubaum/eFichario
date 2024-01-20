@@ -9,9 +9,15 @@ import Acentuacao from './pages/Acentuacao';
 import LerLei from './pages/LerLei';
 import Cursos from './pages/Cursos';
 import CriarLei from './pages/CriarLei';
+import CNU from './pages/concursos/CNU'
 
 function App() {
 
+  const token = localStorage.getItem('accessToken');
+
+  if(!token) {
+    return <Home />
+  }
   
   return (
     <div className="App">
@@ -24,7 +30,8 @@ function App() {
           <Route path='/lerlei/:id' element={<LerLei />} />
           <Route path='/postarLei' element={<LerLei />} />
           <Route path='/cursos' element={<Cursos />} />
-          <Route path='/CRIARLEI' element={<CriarLei />} />
+          <Route path='/criarlei' element={<CriarLei />} />
+          <Route path='/consursos/cnu' element={<CNU />} />
         </Routes>
       </BrowserRouter>
     </div>

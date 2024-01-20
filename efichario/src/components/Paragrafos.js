@@ -3,8 +3,8 @@ import styles from '../pages/CriarLei.module.css'
 import { useStateseEffect } from 'react';
 const Paragrafos = ({lista, numero}) => {
 
+  
     const [conteudo, setConteudo] = useState('');
-
 
     const handleChange = (e, i) => {
       e.preventDefault();
@@ -13,7 +13,6 @@ const Paragrafos = ({lista, numero}) => {
       const onChangeVal = [...lista]
       onChangeVal[i][name] = value
       lista = onChangeVal
-
       }
 
   return (

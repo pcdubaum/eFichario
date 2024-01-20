@@ -1,3 +1,72 @@
+.window{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.window#conteiner{
+    width: 100%;
+    background-color: #161821;
+    display: flex;
+    flex-direction: row;
+
+    color: white;
+   
+    gap: 25px;
+    margin: auto;
+    margin-top: 25px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+button#cursos{
+    background-color: #04AA6D; /* Green */
+    background-image: url('../../public/img/ConcursoUnificado.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: white;
+    border-radius: 5px;
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+
+    color: white;
+
+    height: 215px;
+    width: 380px;
+
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button#cursos:hover{
+    transition: 0.4s;
+    background-color: hsla(0, 0%, 100%, 0.34); /* Green */
+    background-blend-mode: multiply;
+    border:white;
+    border-radius: 5px;
+    border-style: solid;
+    cursor: pointer;
+
+
+}
+
+.button{
+
+}
+
+.button#cursos{
+    background-image: url('../../public/img/ConcursoUnificado.png');
+    background-color: #4CAF50;
+}
+.button#pcdf{
+    background-image: url('../../public/img/PCDF.png');
+    background-color: #4CAF50;
+}
+
 .cursos{
 
     margin: auto;
@@ -41,7 +110,10 @@
 
 h1{
     font-size: xx-large;
-    color:  #61677A;
+}
+
+h2{
+    text-align: center;
 }
 
 h2#mostruario{
@@ -50,3 +122,4 @@ h2#mostruario{
     font-size: medium;
     text-align: center;
 }
+

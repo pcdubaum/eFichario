@@ -1,34 +1,31 @@
-nav{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
-    width: auto;
-    margin-bottom: 25px;
+nav#navbar{
+    text-align: left;
+    width: 100%;
 }
 
-h1{
-    color: #D8D9DA;
+h1#navbar{
     font-size: large;
 }
 
-h1#logo{
-    color:  white;
+h1#navbar{
     font-size: larger;
 }
 
 h2{
-    color: #D8D9DA;
-    font-size: medium;
+    color: black;
 }
 
-input {
+h2#navbar{
+   color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+input#navbar {
     height: 20px;
-    margin: auto;
   }
 
-.topContent{
+.topContent#navbar{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -36,27 +33,25 @@ input {
     padding-right: 25px;
 }
 
-.bottomContent{
+.bottomContent#navbar{
     background-image: url('../../public/img/Generico.png');
     background-size: cover;
-    background-color: #61677A;
+    background-color: #112a1e;
     background-blend-mode: multiply;
     display: flex;
-    justify-content: space-between;
-    padding-left: 25px;
-    padding-right: 25px;
+    width: 100%;
 }
 
-.leftContent{
-    width: 550px;
+.leftContent#navbar{
     display: flex;
-    justify-content: space-around;
     flex-direction: row;
-    padding-left: 25px;
-    text-align: right;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 25px;
+
 }
 
-.rightContent{
+.rightContent#navbar{
     width: 520px;
     display: flex;
     justify-content: right;
@@ -65,14 +60,8 @@ input {
     padding-right: 25px;
 }
 
-:local(button){
-    border-radius: 5px;
-    height: 30px;
-    margin: auto;
-    width: 120px;
-    background-color: #343637;
-    color: white;
-    border-color: gray;
+button#navbar{
+  
 }
 
 

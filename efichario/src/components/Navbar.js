@@ -4,27 +4,15 @@ import styles from "./Navbar.module.css"
 const Navbar = () => {
 
     return (
-        <nav className={styles.nav}> 
-            <div className={styles.topContent}>
-                <div className={styles.leftContent}>
-                <h1 id={styles.logo}>Pêce</h1>
-                    <input></input>
-                    <NavLink to="/"><h2>Voltar para escolha de conteúdo.</h2></NavLink>
+        <nav className={styles.nav} id={styles.navbar}>
+
+            <div className={styles.bottomContent} id={styles.navbar}>
+
+                <div className={styles.leftContent} id={styles.navbar}>
+                    <h2 className={styles.h2} id={styles.navbar} >Paulo Cezar da Silva Junior (Criador)</h2>
+                    <h2 className={styles.h2} id={styles.navbar} >eFichario</h2>
                 </div>
-                <div className={styles.rightContent}>
-                    <h1>Registrar / Entrar</h1>
-                </div>
-            </div>
-           
-            <div className={styles.bottomContent}>
-            <div className={styles.leftContent}>
-                    <h2>Paulo Cezar da Silva Junior (Criador)</h2>
-                </div>
-                <div className={styles.rightContent}>
-                    <button>Aulas (14)</button>
-                    <button>Comentários (12)</button>
-                    <button>Likes(1.288)</button>
-                </div>
+
             </div>
         </nav>
     );
