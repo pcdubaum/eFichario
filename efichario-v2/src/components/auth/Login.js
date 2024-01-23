@@ -1,6 +1,7 @@
-import {  } from '@chakra-ui/react';
-import React, { useContext, useEffect, useState } from 'react'
-import { Navigate, Router, useNavigate } from 'react-router-dom';
+import { } from '@chakra-ui/react';
+import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
 import {
   useStatStyles,
@@ -18,61 +19,99 @@ import {
   AlertIcon,
   Flex,
   AlertTitle,
+  Toast,
   AlertDescription
 } from '@chakra-ui/react'
-
-import { UsuarioContext } from '../../context/UsuarioContext';
+import { useToast } from '@chakra-ui/react';
 
 const Login = () => {
 
-  const {nome, token} = useContext(UsuarioContext);
-
+  // Dados de Sign Up
   const [email, setEmail] = useState('');
-  const [emailError, setEmailError] = useState(false);
   const [password, setPassword] = useState('');
-  const [passwordError, setPasswordError] = useState(true);
   const [passwordConfirm, setPasswordConfirm] = useState('');
-  const [passwordConfirmError, setPasswordConfirmError] = useState(true);
-  const [noventadias, setNoventadias] = useState(false);
-  const [show, setShow] = useState(false);
-  const [error, setError] = useState(-1);
-  const [carregamento, setCarregamento] = useState(false);
 
+  // Campos de verificação
+  const [emailError, setEmailError] = useState(false);
+  const [passwordError, setPasswordError] = useState(false);
+  const [passwordConfirmError, setPasswordConfirmError] = useState(false);
+  const [error, setError] = useState();
+
+  // Variaveis de apresentação
+  const [showPassword, setShowPassword] = useState(false);
+
+  // Hooks
+  const toast = useToast()
   const navigate = useNavigate();
 
-  console.log(nome);
-  console.log(token);
+  /// Submit do formulário
+  const handleSubmit = async (e) => {
 
-  const handleSubmit = (e) =>{
-
-  }
-
-  const emailValidate = () =>{
+    e.preventDefault();
 
   }
 
-  const passwordValidate = () =>{
+  const emailValidate = () => {
 
   }
+
+  // Handle Erros
+  const handleError = () => {
+
+    if (error === 11000)
+      return 'Email já cadastrado!'
+
+    if (error === 404)
+      return 'Não encontrado.'
+  }
+
+  // Criar Novo Usuário
+  const Logar = () => {
+
+    if (password !== passwordConfirm) {
+      toast({
+        title: 'Erro foi encontrado',
+        description: "As senhas não são iguais.",
+        status: 'error',
+        duration: 4000,
+        isClosable: true,
+      })
+
+      return;
+    }
+
+    const minhaPromise = new Promise((resolve, reject) => {
+      resolve(axios.post('http://127.0.0.1:3001/api/v2/usuario/login', {
+        //resolve(axios.post('http://127.0.0.1:3001/api/v2/usuario/signup', {
+        email,
+        password,
+        passwordConfirm
+
+      }));
+    });
+
+    minhaPromise
+      .then(
+        setTimeout(() => {
+          navigate('/usuario/inicio')
+        }, 2000)
+      )
+      .catch(
+        err => setError(err.response.data.error.code)
+      )
+
+    // Will display the loading toast until the promise is either resolved
+    // or rejected.
+    toast.promise(minhaPromise, {
+      success: { title: 'Conta criada!', description: 'Já pode usar o eFichario' },
+      error: { title: 'Ops... algo deu errado!', description: handleError() },
+      loading: { title: 'Criando conta', description: 'Por favor espere.' },
+    })
+  };
 
   const passwordConfirmValidate = (e) => {
 
   }
-
-  useEffect(() => {
-
-    const checar = () => {
-
-      if (token.length !== undefined) {
-        navigate('/usuario/inicio');
-        setCarregamento(true);
-      }
-    }
-    // Verifique se 'carregamento' é falso antes de chamar 'fetc'
-    if (!carregamento) {
-      checar();
-    }
-  }, []); // Este efeito não depende de nenhuma variável e será executado apenas uma vez
 
   return (
     <Flex h='100vh' alignItems='center' justifyContent='center'>
@@ -104,11 +143,11 @@ const Login = () => {
           <FormControl isInvalid={passwordError === false} isRequired mb='5px'>
             <FormLabel>Senha</FormLabel>
             <InputGroup size='md'>
-              <Input pr='4.5rem' type={show ? 'text' : 'password'} value={password} placeholder='Enter password' minLength="8" maxLength="20" onChange={e => passwordValidate(e)} />
+              <Input pr='4.5rem' type={showPassword ? 'text' : 'password'} value={password} placeholder='Enter password' minLength="8" maxLength="20" />
 
               <InputRightElement width='4.5rem'>
-                <Button h='1.75rem' size='xs' onClick={e => setShow(!show)}>
-                  {show ? 'Esconder' : 'Mostrar'}
+                <Button h='1.75rem' size='xs' onClick={e => setShowPassword(!showPassword)}>
+                  {showPassword ? 'Esconder' : 'Mostrar'}
                 </Button>
               </InputRightElement>
             </InputGroup>
@@ -124,10 +163,10 @@ const Login = () => {
           <FormControl isInvalid={passwordConfirmError} isRequired mb='25px'>
             <FormLabel>Confirme a Senha</FormLabel>
             <InputGroup size='md'>
-              <Input pr='4.5rem' type={show ? 'text' : 'password'} value={passwordConfirm} placeholder='Enter password' minLength="8" maxLength="20" onChange={e => passwordConfirmValidate(e)} />
+              <Input pr='4.5rem' type={showPassword ? 'text' : 'password'} value={passwordConfirm} placeholder='Enter password' minLength="8" maxLength="20" onChange={e => passwordConfirmValidate(e)} />
               <InputRightElement width='4.5rem'>
-                <Button h='1.75rem' size='xs' onClick={e => setShow(!show)}>
-                  {show ? 'Esconder' : 'Mostrar'}
+                <Button h='1.75rem' size='xs' onClick={e => setShowPassword(!showPassword)}>
+                  {showPassword ? 'Esconder' : 'Mostrar'}
                 </Button>
               </InputRightElement>
             </InputGroup>
@@ -148,19 +187,6 @@ const Login = () => {
           <Button w='100%' mt='4' colorScheme='orange' onClick={() => navigate('/login')}>
             Já tenho uma conta
           </Button>
-
-          {error === 0 &&
-            <Alert status='success'>
-              <AlertIcon />
-              Usuário registrado com sucesso.
-            </Alert>
-          }
-          {error === 1 &&
-            <Alert status='error' mt='4' w='100%' >
-              <AlertIcon />
-              Email já registrado.
-            </Alert>
-          }
         </form>
       </Flex>
     </Flex>

@@ -46,6 +46,13 @@ const overrides = {
             bg: "transparent",
             border: "1px solid red",
           },
+          orange: {
+            bg: "orange.500",
+            border: "1px solid red",
+            _hover: {
+              bg:"orange.50",
+            },
+          },
           primaryGhost: {
             bg: "transparent",
             border: "1px solid",

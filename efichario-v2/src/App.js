@@ -24,17 +24,11 @@ import theme from './components/Styles';
 
 
 function App() {
-  const token = localStorage.getItem('accessToken');
-
-  if(!token) {
-    return <Home />
-  }
-
   return (
-    <ChakraProvider theme={theme}>
+    <ChakraProvider theme={theme} >
     
     <div className="App">
-    <UsuarioContextProvider theme={theme}>
+    <UsuarioContextProvider>
       <BrowserRouter>
         <Routes>
        
