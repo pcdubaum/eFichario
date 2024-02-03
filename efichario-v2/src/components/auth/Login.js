@@ -51,7 +51,40 @@ const Login = () => {
 
   }
 
-  const emailValidate = () => {
+   /// Validar Senha
+   const passwordValidate = (e) => {
+
+    const tamanho = e.target.value.length;
+    setPassword(e.target.value);
+
+    if (tamanho > 7)
+      setPasswordError(true);
+    else
+      setPasswordError(false);
+  }
+
+  const emailValidate = (e) => {
+    var validate = require("react-email-validator");
+    var res = require("react-email-validator");
+
+    res = validate.validate(e.target.value);
+
+    console.log(res);
+    setEmail(e.target.value);
+    setEmailError(res);
+  }
+
+  
+
+  /// Checar se as senhas são iguais
+  const passwordConfirmValidate = (e) => {
+
+    setPasswordConfirm(e.target.value);
+
+    if (password === passwordConfirm)
+      setPasswordConfirmError(true);
+    else
+      setPasswordConfirmError(false);
 
   }
 
@@ -70,7 +103,7 @@ const Login = () => {
 
     if (password !== passwordConfirm) {
       toast({
-        title: 'Erro foi encontrado',
+        title: 'Erro encontrado',
         description: "As senhas não são iguais.",
         status: 'error',
         duration: 4000,
@@ -84,34 +117,30 @@ const Login = () => {
       resolve(axios.post('http://127.0.0.1:3001/api/v2/usuario/login', {
         //resolve(axios.post('http://127.0.0.1:3001/api/v2/usuario/signup', {
         email,
-        password,
-        passwordConfirm
+        password
 
       }));
     });
 
     minhaPromise
       .then(
-        setTimeout(() => {
+        //setTimeout(() => {
           navigate('/usuario/inicio')
-        }, 2000)
+        //}, 2000)
       )
       .catch(
-        err => setError(err.response.data.error.code)
+        err => setError(err.response.data.error.message)
       )
 
     // Will display the loading toast until the promise is either resolved
     // or rejected.
     toast.promise(minhaPromise, {
-      success: { title: 'Conta criada!', description: 'Já pode usar o eFichario' },
+      success: { title: 'Sucesso!', description: 'Já pode usar o eFichario' },
       error: { title: 'Ops... algo deu errado!', description: handleError() },
-      loading: { title: 'Criando conta', description: 'Por favor espere.' },
+      loading: { title: 'Verificando...', description: 'Por favor espere.' },
     })
   };
 
-  const passwordConfirmValidate = (e) => {
-
-  }
 
   return (
     <Flex h='100vh' alignItems='center' justifyContent='center'>
@@ -126,7 +155,7 @@ const Login = () => {
             Cadastre-se
           </Heading>
 
-          <FormControl isInvalid={emailError === false} isRequired mb='5px'>
+          <FormControl isInvalid={emailError === true} isRequired mb='5px'>
             <FormLabel>Email</FormLabel>
             <Input type='email' value={email} onChange={e => emailValidate(e)} />
 
@@ -143,7 +172,7 @@ const Login = () => {
           <FormControl isInvalid={passwordError === false} isRequired mb='5px'>
             <FormLabel>Senha</FormLabel>
             <InputGroup size='md'>
-              <Input pr='4.5rem' type={showPassword ? 'text' : 'password'} value={password} placeholder='Enter password' minLength="8" maxLength="20" />
+              <Input pr='4.5rem' type={showPassword ? 'text' : 'password'} value={password} placeholder='Enter password' minLength="8" maxLength="20" onChange={e => passwordValidate(e)}/>
 
               <InputRightElement width='4.5rem'>
                 <Button h='1.75rem' size='xs' onClick={e => setShowPassword(!showPassword)}>
@@ -180,11 +209,11 @@ const Login = () => {
             </Checkbox>
           </FormControl>
 
-          <Button w='100%' mt='4' bgGradient="linear(to-b, #61677A, #4d5260)" color='white' type='submit' >
+          <Button w='100%' mt='4' bgGradient="linear(to-b, #61677A, #4d5260)" color='white' type='submit' onClick={() => Logar()}>
             Cadastrar
           </Button>
 
-          <Button w='100%' mt='4' colorScheme='orange' onClick={() => navigate('/login')}>
+          <Button w='100%' mt='4' colorScheme='orange' onClick={() => navigate('/')}>
             Já tenho uma conta
           </Button>
         </form>

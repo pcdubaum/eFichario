@@ -11,7 +11,7 @@ const Navbar = () => {
     
     return (
         <Flex  w='100%' h='110px' direction='column' >
-            <Flex w='100%' h='55px' bgGradient="linear(to-b, #718096, #4A5568)" color='white' paddingLeft='25px' paddingRight='25px'>
+            <Flex w='100%' h='55px' bgGradient="linear(to-b, blue.800, blue.900)" color='white' paddingLeft='25px' paddingRight='25px'>
 
                 <Flex w='100%' direction='row' align='center' justify='space-between' m='auto'>
 
@@ -33,7 +33,7 @@ const Navbar = () => {
 
                 </Flex>
             </Flex>
-            <Flex h='55px' w='100%' background='#2D3748' align='center' justify='left' p='5px' color='white'>
+            <Flex h='55px' w='100%' background='blue.700' align='center' justify='left' p='5px' color='white'>
 
             <HStack spacing='24px'>
 

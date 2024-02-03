@@ -25,10 +25,10 @@ const Signup = forwardRef((props, _ref) => {
   const [passwordConfirm, setPasswordConfirm] = useState('');
 
   // Campos de verificação
-  const [emailError, setEmailError] = useState(true);
-  const [passwordError, setPasswordError] = useState(true);
-  const [passwordConfirmError, setPasswordConfirmError] = useState(true);
-  const [error, setError] = useState();
+  const [emailError, setEmailError] = useState(false);
+  const [passwordError, setPasswordError] = useState(false);
+  const [passwordConfirmError, setPasswordConfirmError] = useState(false);
+  const [error, setError] = useState(false);
 
   // Variaveis de apresentação
   const [showPassword, setShowPassword] = useState(false);
@@ -47,8 +47,39 @@ const Signup = forwardRef((props, _ref) => {
       return 'Não encontrado.'
   }
 
+  const handleSubmit2 = async () => {
+
+    let response;
+    const url = 'http://127.0.0.1:3001/api/v2/usuario/signup';
+    const userData = {
+      email,
+      password,
+      passwordConfirm
+    }
+
+    const examplePromise = new Promise((resolve, reject) => {
+      resolve(axios.post(url, userData)) 
+    })
+
+    examplePromise.then((result) => {
+      console.log('Acerto na promessa ' + result)
+    })
+   .catch((err) => 
+   {
+      console.log('Erro na promessa ' + err)
+   })
+
+    // Will display the loading toast until the promise is either resolved
+    // or rejected.
+    toast.promise(examplePromise, {
+      success: { title: 'Conta criada!', description: 'Já pode usar o eFichario' },
+      error: { title: 'Ops... algo deu errado!', description: 'handleError()' },
+      loading: { title: 'Criando conta', description: 'Por favor espere.' },
+    })
+  };
+
   // Criar Novo Usuário
-  const HandleNovoUsuiario = () => {
+  /*const HandleNovoUsuiario = () => {
 
     if (password !== passwordConfirm) {
       toast({
@@ -62,34 +93,22 @@ const Signup = forwardRef((props, _ref) => {
       return;
     }
 
-    const minhaPromise = new Promise((resolve, reject) => {
-      resolve(axios.post('http://127.0.0.1:3001/api/v2/usuario/signup', {
-      //resolve(axios.post('http://127.0.0.1:3001/api/v2/usuario/signup', {
+    const minhaPromise = 
+      axios.post('http://127.0.0.1:3001/api/v2/usuario/signup', {
+      //(axios.post('http://127.0.0.1:3001/api/v2/usuario/signup', {
         email,
         password,
         passwordConfirm
-
-      }));
-    });
-
-    minhaPromise
-      .then(
-        setTimeout(() => {
-          //<Navigate to="'/usuario/inicio'" />
-        }, 2000)
-      )
-      .catch(
-        err => setError(err.response.data.error.code)
-      )
+      });
 
     // Will display the loading toast until the promise is either resolved
     // or rejected.
     toast.promise(minhaPromise, {
       success: { title: 'Conta criada!', description: 'Já pode usar o eFichario' },
-      error: { title: 'Ops... algo deu errado!', description: handleError() },
+      error: { title: 'Ops... algo deu errado!', description: handleError(minhaPromise) },
       loading: { title: 'Criando conta', description: 'Por favor espere.' },
     })
-  };
+  };*/
 
   /// Validar Senha
   const passwordValidate = (e) => {
@@ -136,9 +155,9 @@ const Signup = forwardRef((props, _ref) => {
   }
 
   return (
-    <Flex h='100vh' alignItems='center' justifyContent='center'>
+    <Flex h='100vh' alignItems='center' justifyContent='center' bgColor='gray200'>
 
-      <Flex w='392px' h='605px' direction='column' boxShadow='dark-lg' p='6' rounded='md' >
+      <Flex w='392px' h='605px' direction='column' boxShadow='dark-lg' p='6' rounded='md' bgColor='white'>
 
         {/* Inicio do formulário */}
         <form onSubmit={handleSubmit} p='auto' m='auto' mt='0px' >
@@ -151,9 +170,9 @@ const Signup = forwardRef((props, _ref) => {
 
     
 
-          <FormControl isInvalid={emailError === true} isRequired mb='5px'>
-            <FormLabel>Email</FormLabel>
-            <Input type='email' value={email} onChange={e => emailValidate(e)} />
+          <FormControl isInvalid={emailError === false} isRequired mb='5px'>
+            <FormLabel color='gray.900'>Email</FormLabel>
+            <Input type='email' value={email} borderColor='gray.300' color='gray.900' onChange={e => emailValidate(e)} />
 
             {emailError === false && (
               <FormErrorMessage>Email não válido.</FormErrorMessage>
@@ -166,12 +185,12 @@ const Signup = forwardRef((props, _ref) => {
           </FormControl>
 
           <FormControl isInvalid={passwordError === false} isRequired mb='5px'>
-            <FormLabel>Senha</FormLabel>
+            <FormLabel color='gray.900'>Senha</FormLabel>
             <InputGroup size='md'>
-              <Input pr='4.5rem' type={showPassword ? 'text' : 'password'} value={password} placeholder='Enter password' minLength="8" maxLength="20" onChange={e => passwordValidate(e)} />
+              <Input pr='4.5rem' type={showPassword ? 'text' : 'password'} value={password} placeholder='Enter password' minLength="8" maxLength="20" borderColor='gray.300' onChange={e => passwordValidate(e)} />
 
               <InputRightElement width='4.5rem'>
-                <Button h='1.75rem' size='xs' onClick={e => setShowPassword(!showPassword)}>
+                <Button h='1.75rem' size='xs' onClick={e => setShowPassword(!showPassword) }>
                   {showPassword ? 'Esconder' : 'Mostrar'}
                 </Button>
               </InputRightElement>
@@ -186,9 +205,9 @@ const Signup = forwardRef((props, _ref) => {
           </FormControl>
 
           <FormControl isInvalid={passwordConfirmError === false} isRequired mb='25px'>
-            <FormLabel>Confirme a Senha</FormLabel>
+            <FormLabel color='gray.900'>Confirme a Senha</FormLabel>
             <InputGroup size='md'>
-              <Input pr='4.5rem' type={showPassword ? 'text' : 'password'} value={passwordConfirm} placeholder='Enter password' minLength="8" maxLength="20" onChange={e => passwordConfirmValidate(e)} />
+              <Input pr='4.5rem' type={showPassword ? 'text' : 'password'} value={passwordConfirm} placeholder='Enter password' minLength="8" maxLength="20" borderColor='gray.300' onChange={e => passwordConfirmValidate(e)} />
               <InputRightElement width='4.5rem'>
                 <Button h='1.75rem' size='xs' onClick={e => setShowPassword(!showPassword)}>
                   {showPassword ? 'Esconder' : 'Mostrar'}
@@ -205,7 +224,7 @@ const Signup = forwardRef((props, _ref) => {
             </Checkbox>
           </FormControl>
 
-          <Button w='100%' mt='4' bgColor='#61677A' color='white' type='submit' onClick={() => HandleNovoUsuiario()}>
+          <Button w='100%' mt='4' bgColor='blue.800' color='white' type='submit' onClick={() => handleSubmit2()}>
             Cadastrar
           </Button>
 

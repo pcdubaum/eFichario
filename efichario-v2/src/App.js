@@ -21,6 +21,8 @@ import Inicio from './pages/Inicio';
 import { UsuarioContextProvider } from './context/UsuarioContext';
 import EditalCnu from './pages/EditalCnu';
 import theme from './components/Styles';
+import CnuCargosBloco2 from './pages/CnuCargosBloco2';
+import Eixo3 from './pages/Eixo3';
 
 
 function App() {
@@ -39,7 +41,9 @@ function App() {
             <Route path='/usuario/perfil' element={<Perfil />} />
             <Route path='/usuario/inicio' element={<Inicio />} />
 
-            <Route path='/editais/cnu/bloco2' element={<EditalCnu />} />            
+            <Route path='/editais/cnu/bloco2' element={<EditalCnu />} />     
+            <Route path='/editais/cnu/bloco2/cargos' element={<CnuCargosBloco2 />} />    ,
+            <Route path='/materia/cnu/eixo3' element={<Eixo3 />} />       
         </Routes>
       </BrowserRouter>
       </UsuarioContextProvider>

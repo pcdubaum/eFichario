@@ -1,6 +1,21 @@
 import { extendTheme } from "@chakra-ui/react";
 
 const overrides = {
+  colors: {
+    transparent: 'transparent',
+    black: '#000',
+    white: '#fff',
+    red22: {
+      50: 'green',
+      // ...
+      800: 'green',
+    },
+    brand: {
+      100: "gray.200",
+      // ...
+      900: "red",
+    },
+  },
     components: {
       Divider:{
         baseStyle: {
@@ -83,6 +98,7 @@ const overrides = {
         baseStyle: {
           fontFamily: "Inter",
           fontWeight: "600",
+          color: 'gray.900'
         },
         sizes: {
           small: {
@@ -92,11 +108,16 @@ const overrides = {
           large: { fontSize: "30px" },
         },
       },
+      Text: {
+        baseStyle : {
+          color: 'gray.900'
+        },
+      },
     },
   };
 
   const config = {
-    initialColorMode: 'dark',
+    initialColorMode: 'light',
     useSystemColorMode: false,
   }
 

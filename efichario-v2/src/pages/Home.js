@@ -18,9 +18,9 @@ const Home = () => {
 
   return (
 
-    <Flex height='100vh' display='flex' flex-direction='row' alignItems='center' justifyContent='center' m='auto'>
+    <Flex height='100vh' display='flex' flex-direction='row' alignItems='center' justifyContent='center' m='auto' bgColor='gray.200'>
 
-      <Flex w='392px' h='605px' padding='10px' text-align='left' boxShadow='dark-lg' p='6' rounded='md'>
+      <Flex w='392px' h='605px' padding='10px' text-align='left' boxShadow='dark-lg' p='6' rounded='md' >
 
         <Capa />
 
