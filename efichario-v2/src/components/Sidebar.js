@@ -16,41 +16,7 @@ const Sidebar = () => {
         <Stack> 
         
         <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-         <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
-        <Heading>oooiiii</Heading>
+        
         </Stack>
     </Flex>
   )

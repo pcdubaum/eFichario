@@ -1,0 +1,133 @@
+{
+    "nome": "Python - Variaveis",
+    "tema": "GERÊNCIA E SUPORTE DA TECNOLOGIA DA INFORMAÇÃO - CNU",
+    "concursos": ["CNU"],
+    "areaAtuacaoConcurso": ["Analista em Tecnologia da Informação (ATI)"],
+    "autor": "Paulo Cezar da Silva Junior",
+    "idAutor": 900,
+    "criadoEm": "2023-09-01T03:00:00.000+00:00",
+    "editadoEm": "",
+    "materia": [
+        {
+            "tipo": "cap1",
+            "titulo": "O que são variáveis?",
+            "conteudo": 
+            ["São conteineres que armazenam valores de dados."],
+            "raridade": "comum"
+        },
+        {
+            "tipo": "cap1",
+            "titulo": "Objetos",
+            "conteudo": 
+            ["Variáveis em Python são objetos. Uma variável é um objeto de uma classe com base no valor que ela armazena. ",
+                "Use a função type() para obter o nome da classe (type) de uma variável."],
+            "raridade": "comum"
+        }
+        ,     
+        {
+            "tipo": "exc",
+            "titulo": "Exemplo: Tipo de variável",
+            "conteudo": ["num = 10 ",   "type(num)  #<class 'int'>",
+                        "amount = 78.50 ", "type(amount)  #<class 'float'>",
+                        "greet='Hello World' ", "type(greet)   #<class 'str'>",
+                    "isActive = True ", "type(isActive)  #<class 'bool'>"],
+            "cor": "green.600"
+        },  
+        {
+            "tipo": "cap1",
+            "titulo": "Identidade do objeto",
+            "conteudo": 
+            ["Cada objeto em Python tem um id.",
+                "É o endereço do objeto na memória representado por um valor inteiro.",
+                "A função retorna o id do objeto especificado onde ele está armazenado. id()"],
+                
+            "raridade": "comum"
+        },   
+        {
+            "tipo": "cap1",
+            "titulo": "Criando variáveis",
+            "conteudo": 
+            ["Python não tem nenhum comando para declarar uma variável.",
+                "Uma variável é criada no momento em que você atribui um valor a ela pela primeira vez.",
+                "As variáveis não precisam ser declaradas com nenhum tipo específico e podem até mudar de tipo depois de definida.",
+                "Case sensitive. Os nomes das variáveis diferenciam maiúsculas de minúsculas.",
+                "As variáveis de cadeia de caracteres podem ser declaradas usando aspas simples ou duplas:"],
+            "raridade": "comum"
+        },     
+        {
+            "tipo": "exc",
+            "titulo": "Exemplo",
+            "conteudo": ["x = 4       # x is of type int",
+                            "x = 'Sally'    # x is now of type str"],
+            "cor": "green.600"
+        },  
+        {
+            "tipo": "cap1",
+            "titulo": "Fundição.",
+            "conteudo": 
+                ["Se você quiser especificar o tipo de dados de uma variável, isso pode ser feito com a transmissão."],
+            "raridade": "comum"
+        },
+        {
+            "tipo": "exc",
+            "titulo": "Exemplo",
+            "conteudo": ["x = str(3)    # x will be '3'",
+                            "y = int(3)    # y will be 3",
+                            "z = float(3)  # z will be 3.0"],
+            "cor": "green.600"
+        },  
+        {
+            "tipo": "cap1",
+            "titulo": "Nomes de variáveis.",
+            "conteudo": 
+                ["Um nome de variável deve começar com uma letra ou o caractere de sublinhado.",
+                    "Um nome de variável não pode começar com um número.",
+                    "Um nome de variável só pode conter caracteres alfanuméricos e sublinhados (A-z, 0-9 e _ )",
+                    "Os nomes das variáveis diferenciam maiúsculas de minúsculas",
+                    "Um nome de variável não pode ser nenhuma das palavras-chave do Python"],
+            "raridade": "comum"
+        },
+        {
+            "tipo": "exc",
+            "titulo": "Exemplo: Nomes de variáveis legais:",
+            "conteudo": ["myvar = 'John'",
+                            "myVar = 'John'",
+                            "_my_var = 'John'"],
+            "cor": "green.600"
+        }, 
+        {
+            "tipo": "exc",
+            "titulo": "Exemplo: Nomes de variáveis ilegais:",
+            "conteudo": ["2myvar = 'John'",
+                            "my-var = 'John'",
+                            "my var = 'John'"],
+            "cor": "errado"
+        } ,  
+        {
+            "tipo": "cap1",
+            "titulo": "Nomes de variáveis de várias palavras",
+            "conteudo": 
+                ["Camel Case: Cada palavra, exceto a primeira, começa com uma letra maiúscula: myVariableName = 'John'",
+                    "Pascal Case: Cada palavra começa com uma letra maiúscula: MyVariableName = 'John'",
+                    "Snake Case: Cada palavra é separada por um caractere de sublinhado: my_variable_name = 'John'"],
+            "raridade": "comum"
+        },  
+        {
+            "tipo": "cap1",
+            "titulo": "Atribuição de múltiplas variáveis",
+            "conteudo": 
+                ["Você pode declarar várias variáveis e atribuir valores a cada variável em uma única instrução, conforme mostrado abaixo.",
+                    "A atribuição de valores a variáveis deve estar na mesma ordem em que foram declaradas.",
+                    "Você também pode declarar diferentes tipos de valores para variáveis em uma única instrução separada por uma vírgula"],
+            "raridade": "comum"
+        }, 
+        {
+            "tipo": "exc",
+            "titulo": "Exemplo: Criar várias variáveis",
+            "conteudo": ["2myvar = 'John'",
+                            "my-var = 'John'",
+                            "my var = 'John'"],
+            "cor": "green.600"
+        }
+    ]
+}

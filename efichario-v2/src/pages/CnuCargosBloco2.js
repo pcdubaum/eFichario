@@ -13,125 +13,185 @@ import {
     Text,
     Divider,
     Center,
-    Heading
+    Heading, Tabs, TabList, TabPanel, TabPanels, Tab, Badge, Box, Stack
 } from '@chakra-ui/react'
 import Navbar from '../components/Navbar'
+import Sidebar from '../components/Sidebar'
 
 const CnuCargosBloco2 = () => {
     return (
-        <Flex w='100vw' h='100vh' direction='column'>
+        <Flex width='100%' height='100%' direction='column' padding='0px' margin='auto' overflowY='hidden'>
             <Navbar />
-            
-            <Heading as='h2' size='xl' textAlign='center'>(B2-08) - Ministério da Gestão e da Inovação em Serviços Públicos – MGI</Heading>
-            <TableContainer>
-                <Table variant='striped' colorScheme='blue'>
 
-                    <Thead>
-                        <Tr>
-                            <Th maxWidth='64px'>Cód</Th>
-                            <Th>Cargo</Th>
-                            <Th isNumeric>Salario</Th>
-                            <Th maxWidth='145px'>Especialidade</Th>
-                            <Th maxWidth='145px'>Eixo Temático 1</Th>
-                            <Th maxWidth='145px'>Eixo Temático 2</Th>
-                            <Th maxWidth='145px'>Eixo Temático 3</Th>
-                            <Th maxWidth='145px'>Eixo Temático 4</Th>
-                            <Th maxWidth='145px'>Eixo Temático 5</Th>
-                            <Th>Vagas</Th>
-                        </Tr>
-                    </Thead>
-                    <Tbody>
-                        <Tr>
-                            <Td>B2-08-A</Td>
-                            <Td>Analista em Tecnologia da Informação (ATI)</Td>
-                            <Td isNumeric> 11.150,80</Td>
-                            <Td>Tecnologia da Informação </Td>
-                            <Td >1</Td>
-                            <Td >1</Td>
-                            <Td >3</Td>
-                            <Td >3</Td>
-                            <Td >2</Td>
-                            <Td>225</Td>
-                        </Tr>
-                        <Tr>
-                            <Td>B2-08-B</Td>
-                            <Td>Analista Técnico de Políticas Sociais - ATPS</Td>
-                            <Td isNumeric> 8.336,82</Td>
-                            <Td>Tecnologia da Informação </Td>
-                            <Td >2</Td>
-                            <Td >3</Td>
-                            <Td >1</Td>
-                            <Td >1</Td>
-                            <Td >3</Td>
-                            <Td>15</Td>
-                        </Tr>
+            <Flex>
+                <Flex height='100%' width='250px'>
+                    <Sidebar />
+                </Flex>
 
-                        <Tr>
-                            <Td>B2-08-C</Td>
-                            <Td>Especialista em Políticas Públicas e Gestão Governamental (EPPGG)</Td>
-                            <Td isNumeric>20.924,80</Td>
-                            <Td >Graduação em qualquer área de conhecimento</Td>
-                            <Td >4</Td>
-                            <Td >3</Td>
-                            <Td >1</Td>
-                            <Td >1</Td>
-                            <Td >1</Td>
-                            <Td>11</Td>
-                        </Tr>
+                <Flex width='90%' alignItems='top' justifyContent='space-between' direction='column' margin='auto' marginTop='25px'>
+                    <Flex minWidth='390px' width='95%' borderRadius='5px' border='1px solid' borderColor='gray.600' direction='column'>
 
-                        <Tr>
-                            <Td>B2-08-D </Td>
-                            <Td>Estatístico</Td>
-                            <Td isNumeric> 6.804,55</Td>
-                            <Td >Estatística</Td>
-                            <Td >2</Td>
-                            <Td >1</Td>
-                            <Td >1</Td>
-                            <Td >1</Td>
-                            <Td >5</Td>
-                            <Td>9</Td>
-                        </Tr>
-                    </Tbody>
-                </Table>
-            </TableContainer>
-            <Center height='50px'>
-                <Divider orientation='horizontal' />
-            </Center>
-            <Heading as='h2' size='xl' textAlign='center'>(B2-10) - SUPERINTENDÊNCIA NACIONAL DE PREVIDÊNCIA COMPLEMENTAR - PREVIC</Heading>
-            <TableContainer>
-                <Table variant='striped' colorScheme='blue'>
+                        <Heading as='h2' size='xl' textAlign='center'>(B2-08) - Ministério da Gestão e da Inovação em Serviços Públicos – MGI</Heading>
+                        <TableContainer>
+                            <Table variant='striped' colorScheme='blue'>
 
-                    <Thead>
-                        <Tr>
-                            <Th maxWidth='64px'>Cód</Th>
-                            <Th>Cargo</Th>
-                            <Th isNumeric>Salario</Th>
-                            <Th maxWidth='145px'>Especialidade</Th>
-                            <Th maxWidth='145px'>Eixo Temático 1</Th>
-                            <Th maxWidth='145px'>Eixo Temático 2</Th>
-                            <Th maxWidth='145px'>Eixo Temático 3</Th>
-                            <Th maxWidth='145px'>Eixo Temático 4</Th>
-                            <Th maxWidth='145px'>Eixo Temático 5</Th>
-                            <Th>Vagas</Th>
-                        </Tr>
-                    </Thead>
-                    <Tbody>
-                        <Tr>
-                            <Td>B2-01-A</Td>
-                            <Td>Analista administrativo</Td>
-                            <Td isNumeric>12.953,29</Td>
-                            <Td>Analista Administrativo</Td>
-                            <Td >1</Td>
-                            <Td >1</Td>
-                            <Td >3</Td>
-                            <Td >3</Td>
-                            <Td >2</Td>
-                            <Td>4</Td>
-                        </Tr>
-                    </Tbody>
-                </Table>
-            </TableContainer>
+                                <Thead>
+                                    <Tr>
+                                        <Th maxWidth='64px'>Cód</Th>
+                                        <Th>Cargo</Th>
+                                        <Th isNumeric>Salario</Th>
+                                        <Th maxWidth='145px'>Especialidade</Th>
+                                        <Th maxWidth='145px'>Eixo Temático 1</Th>
+                                        <Th maxWidth='145px'>Eixo Temático 2</Th>
+                                        <Th maxWidth='145px'>Eixo Temático 3</Th>
+                                        <Th maxWidth='145px'>Eixo Temático 4</Th>
+                                        <Th maxWidth='145px'>Eixo Temático 5</Th>
+                                        <Th>Vagas</Th>
+                                    </Tr>
+                                </Thead>
+                                <Tbody>
+                                    <Tr>
+                                        <Td>B2-08-A</Td>
+                                        <Td>Analista em Tecnologia da Informação (ATI)</Td>
+                                        <Td isNumeric> 11.150,80</Td>
+                                        <Td>Tecnologia da Informação </Td>
+                                        <Td >1</Td>
+                                        <Td >1</Td>
+                                        <Td >3</Td>
+                                        <Td >3</Td>
+                                        <Td >2</Td>
+                                        <Td>225</Td>
+                                    </Tr>
+                                    <Tr>
+                                        <Td>B2-08-B</Td>
+                                        <Td>Analista Técnico de Políticas Sociais - ATPS</Td>
+                                        <Td isNumeric> 8.336,82</Td>
+                                        <Td>Tecnologia da Informação </Td>
+                                        <Td >2</Td>
+                                        <Td >3</Td>
+                                        <Td >1</Td>
+                                        <Td >1</Td>
+                                        <Td >3</Td>
+                                        <Td>15</Td>
+                                    </Tr>
 
+                                    <Tr>
+                                        <Td>B2-08-C</Td>
+                                        <Td>Espec em Políticas Públicas e Gestão Govern (EPPGG)</Td>
+                                        <Td isNumeric>20.924,80</Td>
+                                        <Td >Graduação em qualquer área</Td>
+                                        <Td >4</Td>
+                                        <Td >3</Td>
+                                        <Td >1</Td>
+                                        <Td >1</Td>
+                                        <Td >1</Td>
+                                        <Td>11</Td>
+                                    </Tr>
+
+                                    <Tr>
+                                        <Td>B2-08-D </Td>
+                                        <Td>Estatístico</Td>
+                                        <Td isNumeric> 6.804,55</Td>
+                                        <Td >Estatística</Td>
+                                        <Td >2</Td>
+                                        <Td >1</Td>
+                                        <Td >1</Td>
+                                        <Td >1</Td>
+                                        <Td >5</Td>
+                                        <Td>9</Td>
+                                    </Tr>
+                                </Tbody>
+                            </Table>
+                        </TableContainer>
+                        <Center height='50px'>
+                            <Divider orientation='horizontal' />
+                        </Center>
+                        <Heading as='h2' size='xl' textAlign='center'>(B2-10) - SUPERINTENDÊNCIA NACIONAL DE PREVIDÊNCIA COMPLEMENTAR - PREVIC</Heading>
+                        <TableContainer>
+                            <Table variant='striped' colorScheme='blue'>
+
+                                <Thead>
+                                    <Tr>
+                                        <Th maxWidth='64px'>Cód</Th>
+                                        <Th>Cargo</Th>
+                                        <Th isNumeric>Salario</Th>
+                                        <Th maxWidth='145px'>Especialidade</Th>
+                                        <Th maxWidth='145px'>Eixo Temático 1</Th>
+                                        <Th maxWidth='145px'>Eixo Temático 2</Th>
+                                        <Th maxWidth='145px'>Eixo Temático 3</Th>
+                                        <Th maxWidth='145px'>Eixo Temático 4</Th>
+                                        <Th maxWidth='145px'>Eixo Temático 5</Th>
+                                        <Th>Vagas</Th>
+                                    </Tr>
+                                </Thead>
+                                <Tbody>
+                                    <Tr>
+                                        <Td>B2-01-A</Td>
+                                        <Td>Analista administrativo</Td>
+                                        <Td isNumeric>12.953,29</Td>
+                                        <Td>Analista Administrativo</Td>
+                                        <Td >1</Td>
+                                        <Td >1</Td>
+                                        <Td >3</Td>
+                                        <Td >3</Td>
+                                        <Td >2</Td>
+                                        <Td>4</Td>
+                                    </Tr>
+                                </Tbody>
+                            </Table>
+                        </TableContainer>
+                    </Flex>
+
+                    <Center height='50px'>
+                        <Divider orientation='horizontal' />
+                    </Center>
+
+                    <Heading>Matérias</Heading>
+
+                    <Flex minWidth='390px' width='95%' borderRadius='5px' border='1px solid' borderColor='gray.600' padding='25px' direction='column'>
+
+
+                        <Tabs minWw='790px' w='90%' alignItems='center' justifyContent='center' m='auto' mt='25px'>
+                            <TabList>
+                                <Tab>Eixo 1 -  GESTÃO GOVERNAMENTAL E GOVERNANÇA PÚBLICA</Tab>
+                                <Tab>Eixo 2 – POLÍTICAS PÚBLICAS</Tab>
+                                <Tab> <Badge ml='1' colorScheme='red'>
+                                    Peso 3
+                                </Badge>Eixo 3 – GERÊNCIA E SUPORTE DA TECNOLOGIA DA INFORMAÇÃO  </Tab>
+                                <Tab>Eixo 4 – DESENVOLVIMENTO DE SOFTWARE </Tab>
+                                <Tab>Eixo 5 – APOIO À DECISÃO, INTELIGÊNCIA ARTIFICIAL E MÉTODOS QUANTITATIVOS  </Tab>
+                            </TabList>
+
+                            <TabPanels >
+                                <TabPanel>
+                                    <p>1 - Primeira Etapa:</p>
+                                </TabPanel>
+                                <TabPanel>
+                                    <p>2 - Primeira Etapa:</p>
+                                </TabPanel>
+                                <TabPanel>
+
+                                    <Heading>1 - Segurança da Informação.</Heading>
+
+
+
+                                    <Stack>
+                                        <Text ml='25px' fontSize='lg'>1.1 Princípios em segurança da informação. </Text>
+                                        <Text ml='25px' fontSize='lg'>1.2 Políticas de segurança.  </Text>
+                                        <Text ml='25px' fontSize='lg'>1.3 Classificação de informações. </Text>
+                                        <Text ml='25px' fontSize='lg'>1.4 Autenticação e controle de acesso. </Text>
+                                        <Text ml='25px' fontSize='lg'>1.5 Análise de vulnerabilidade. </Text>
+                                        <Text ml='25px' fontSize='lg'>1.6 Plano de continuidade de negócio.  </Text>
+                                        <Text ml='25px' fontSize='lg'>1.7 Normas ISO 17799 e ISO 27001 </Text>
+                                        <Text ml='25px' fontSize='lg'> 1.8 Auditoria e conformidade.  </Text>
+                                    </Stack>
+                                </TabPanel>
+                            </TabPanels>
+                        </Tabs>
+
+                    </Flex>
+                </Flex>
+            </Flex>
         </Flex>
     )
 }

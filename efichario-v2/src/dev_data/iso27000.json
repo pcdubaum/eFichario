@@ -1,0 +1,55 @@
+{
+    "nome": "iso27000",
+    "tema": "GERÊNCIA E SUPORTE DA TECNOLOGIA DA INFORMAÇÃO - CNU",
+    "concursos": ["CNU"],
+    "areaAtuacaoConcurso": ["Analista em Tecnologia da Informação (ATI)"],
+    "autor": "Paulo Cezar da Silva Junior",
+    "idAutor": 900,
+    "criadoEm": "2023-09-01T03:00:00.000+00:00",
+    "editadoEm": "",
+    "materia": [
+        {
+            "tipo": "hea1",
+            "titulo": "SEÇÕES (ESTRUTURA) DA NORMA ABNT NBR ISO/IEC 27001:2022",
+            "conteudo": 
+                ["A Norma ABNT NBR ISO/IEC 27001:2022 é dividida em 11 seções e Anexo A. As seções de 0 a 3 são introdutórias (e não são obrigatórias para a implementação), enquanto as seções de 4 a 10 são obrigatórias."],
+            "raridade": "comum"
+        },
+        {
+            "titulo": "Seção 0: Introdução",
+            "conteudo": 
+            ["Destaca o propósito da ISO 27001 e sua compatibilidade com outras normas de gestão."],
+            "raridade": "comum"
+        },
+        {
+            "titulo": "Seção 1: Escopo",
+            "conteudo": 
+            ["Explica que a norma é aplicável a qualquer tipo de organização."],
+            "raridade": "comum"
+        },
+        {
+            "titulo": "Seção 2: Referência normativa & Seção 3: Termos e definições",
+            "conteudo": 
+            ["Refere-se à ISO/IEC 27000 como uma norma em que referências normativas, termos e definições são dadas."],
+            "raridade": "comum"
+        },
+        {
+            "titulo": "Seção 4: Contexto da organização",
+            "conteudo": 
+            ["Descreve o contexto da organização, incluindo o ambiente interno e externo, as necessidades e expectativas das partes interessadas e os objetivos de segurança da informação."],
+            "raridade": "comum"
+        },
+        {
+            "titulo": "Seção 5: Liderança",
+            "conteudo": 
+            ["Descreve os requisitos de liderança para o SGSI, incluindo a política de segurança da informação, a atribuição de papéis e responsabilidades."],
+            "raridade": "comum"
+        },
+        {
+            "titulo": "Seção 6: Planejamento",
+            "conteudo": 
+            [" Descreve os requisitos de planejamento para o SGSI, incluindo o risco de segurança da informação, o tratamento de riscos e os objetivos de segurança da informação e planejamento para alcançá-los."],
+            "raridade": "comum"
+        }
+    ]
+}

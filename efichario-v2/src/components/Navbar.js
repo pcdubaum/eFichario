@@ -1,5 +1,7 @@
 import { CloseIcon } from '@chakra-ui/icons'
-import { Flex, Heading, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Button, useColorModeValue, HStack } from '@chakra-ui/react'
+import { Flex, Heading, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Button, useColorModeValue, HStack, Link } from '@chakra-ui/react'
+import { Link as ReactRouterLink } from 'react-router-dom'
+import { Link as ChakraLink, LinkProps } from '@chakra-ui/react'
 import React from 'react'
 import { useContext } from 'react'
 import { UsuarioContext } from '../context/UsuarioContext'
@@ -39,7 +41,7 @@ const Navbar = () => {
 
 <Button variant='secondaryGhost'>Cursos</Button>
 <Button variant='secondaryGhost'>Matérias</Button>
-<Button variant='secondaryGhost'>Editais</Button>
+<ChakraLink as={ReactRouterLink} to='/editais'><Button variant='secondaryGhost'>Editais</Button></ChakraLink>
 <Button variant='secondaryGhost'>Comunidade</Button>
 </HStack>
             </Flex>

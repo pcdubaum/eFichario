@@ -13,7 +13,7 @@ const overrides = {
     brand: {
       100: "gray.200",
       // ...
-      900: "red",
+      900: "gray.100",
     },
   },
     components: {
@@ -98,7 +98,7 @@ const overrides = {
         baseStyle: {
           fontFamily: "Inter",
           fontWeight: "600",
-          color: 'gray.900'
+          color: 'brand.900'
         },
         sizes: {
           small: {

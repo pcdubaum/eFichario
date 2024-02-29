@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+
 import axios from 'axios';
 import {
   FormControl,
@@ -36,7 +37,7 @@ const Signup = forwardRef((props, _ref) => {
   // Hooks
   const toast = useToast()
 
-
+  const bcrypt = require('bcryptjs');
   // Handle Erros
   const handleError = () => {
 
@@ -50,10 +51,13 @@ const Signup = forwardRef((props, _ref) => {
   const handleSubmit2 = async () => {
 
     let response;
-    const url = 'http://127.0.0.1:3001/api/v2/usuario/signup';
+    const url = 'http://127.0.0.1:3001/api/v2/usuarios/signup';
+
+    const encPass = await bcrypt.hash(password, 10);
+
     const userData = {
       email,
-      password,
+      password: encPass,
       passwordConfirm
     }
 

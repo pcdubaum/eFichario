@@ -1,0 +1,77 @@
+{
+    "nome": "Python - Tipod de Variaveis",
+    "tema": "GERÊNCIA E SUPORTE DA TECNOLOGIA DA INFORMAÇÃO - CNU",
+    "concursos": [
+        "CNU"
+    ],
+    "areaAtuacaoConcurso": [
+        "Analista em Tecnologia da Informação (ATI)"
+    ],
+    "autor": "Paulo Cezar da Silva Junior",
+    "idAutor": 900,
+    "criadoEm": "2024-02-29T03:00:00.000+00:00",
+    "editadoEm": "",
+    "materia": [
+        {
+            "tipo": "hea2",
+            "titulo": "Os tipos de dados são a classificação ou categorização de itens de dados. Python suporta os seguintes tipos de dados internos.",
+            "cor": "comum"
+        },
+        {
+            "tipo": "cap1",
+            "titulo": "Tipos escalares.",
+            "conteudo": [
+                "int: Números inteiros positivos ou negativos (sem uma parte fracionária), por exemplo, -10, 10, 456, 4654654.",
+                "float: Qualquer número real com uma representação de ponto flutuante em que um componente fracionário é denotado por um símbolo decimal ou notação científica, por exemplo, 1.23, 3.4556789e2.",
+                "complex: Um número com um componente real e imaginário representado como . x + 2y",
+                "bool: Dados com um dos dois valores internos ou . Observe que 'T' e 'F' são maiúsculos. e não são booleanos válidos e Python vai lançar um erro para eles. True False true false",
+                "None: O representa o objeto null em Python. A é retornado por funções que não retornam explicitamente um valor. None None"
+            ],
+            "raridade": "comum"
+        },
+        {
+            "tipo": "hea2",
+            "titulo": "Uma sequência é uma coleção ordenada de tipos de dados semelhantes ou diferentes. Python tem os seguintes tipos de dados de sequência internos:",
+            "cor": "comum"
+        },
+        {
+            "tipo": "cap1",
+            "titulo": "Tipo de sequência",
+            "conteudo": [
+                "String: Um valor de cadeia de caracteres é uma coleção de um ou mais caracteres colocados entre aspas simples, duplas ou triplas.",
+                "List: um objeto de lista é uma coleção ordenada de um ou mais itens de dados, não necessariamente do mesmo tipo, colocados entre colchetes.",
+                "Tuple: Um objeto Tuple é uma coleção ordenada de um ou mais itens de dados, não necessariamente do mesmo tipo, colocados entre parênteses."
+            ],
+            "raridade": "comum"
+        },
+        {
+            "tipo": "cap1",
+            "titulo": "Tipo de mapeamento",
+            "conteudo": [
+                "Dicionário: um objeto de dicionário é uma coleção não ordenada de dados em um formulário de par chave:valor. Uma coleção desses pares é colocada entre colchetes. Por exemplo: Dict(){1:'Steve', 2:'Bill', 3:'Ram', 4: 'Farha'}"
+            ],
+            "raridade": "comum"
+        }
+        ,
+        {
+            "tipo": "cap1",
+            "titulo": "Definir tipos",
+            "conteudo": [
+                "set: Set é uma coleção mutável e não ordenada de objetos hashable distintos. O conjunto é uma implementação Python do conjunto em Matemática. Um objeto definido tem métodos adequados para executar operações matemáticas de conjunto, como união, interseção, diferença, etc.",
+                "frozenset: Frozenset é uma versão imutável do conjunto cujos elementos são adicionados de outras iteráveis."
+            ],
+            "raridade": "comum"
+        }
+        ,
+        {
+            "tipo": "cap1",
+            "titulo": "Tipos mutáveis e imutáveis",
+            "conteudo": [
+                "Os objetos de dados dos tipos acima são armazenados na memória de um computador para processamento. Alguns desses valores podem ser modificados durante o processamento, mas o conteúdo de outros não pode ser alterado depois que eles são criados na memória.",
+                "Números, cadeias de caracteres e tuplas são imutáveis, o que significa que seu conteúdo não pode ser alterado após a criação.",
+                "Por outro lado, os itens em um objeto List ou Dictionary podem ser modificados. É possível adicionar, excluir, inserir e reorganizar itens em uma lista ou dicionário. Portanto, são objetos mutáveis."
+            ],
+            "cor": "yellow.800"
+        }
+    ]
+}
